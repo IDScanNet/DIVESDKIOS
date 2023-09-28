@@ -1,0 +1,5618 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CaptureConfiguration",
+        "printedName": "CaptureConfiguration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(json:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDScanCapture.CaptureConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureConfiguration",
+                    "printedName": "IDScanCapture.CaptureConfiguration",
+                    "usr": "s:13IDScanCapture0B13ConfigurationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13IDScanCapture0B13ConfigurationV4jsonACSgSDySSypG_tcfc",
+            "mangledName": "$s13IDScanCapture0B13ConfigurationV4jsonACSgSDySSypG_tcfc",
+            "moduleName": "IDScanCapture",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13IDScanCapture0B13ConfigurationV",
+        "mangledName": "$s13IDScanCapture0B13ConfigurationV",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "IDScanMRZDetector",
+        "printedName": "IDScanMRZDetector",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "IDScanPDFDetector",
+        "printedName": "IDScanPDFDetector",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImagePicker",
+        "printedName": "ImagePicker",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImagePicker",
+                "printedName": "IDScanCapture.ImagePicker",
+                "usr": "c:@M@IDScanCapture@objc(cs)ImagePicker"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@IDScanCapture@objc(cs)ImagePicker(im)init",
+            "mangledName": "$s13IDScanCapture11ImagePickerCACycfc",
+            "moduleName": "IDScanCapture",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13IDScanCapture11ImagePickerC7present2onySo16UIViewControllerC_tF",
+            "mangledName": "$s13IDScanCapture11ImagePickerC7present2onySo16UIViewControllerC_tF",
+            "moduleName": "IDScanCapture",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "imagePickerControllerDidCancel",
+            "printedName": "imagePickerControllerDidCancel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImagePickerController",
+                "printedName": "UIKit.UIImagePickerController",
+                "usr": "c:objc(cs)UIImagePickerController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IDScanCapture@objc(cs)ImagePicker(im)imagePickerControllerDidCancel:",
+            "mangledName": "$s13IDScanCapture11ImagePickerC05imageD19ControllerDidCancelyySo07UIImagedF0CF",
+            "moduleName": "IDScanCapture",
+            "objc_name": "imagePickerControllerDidCancel:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "imagePickerController",
+            "printedName": "imagePickerController(_:didFinishPickingMediaWithInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImagePickerController",
+                "printedName": "UIKit.UIImagePickerController",
+                "usr": "c:objc(cs)UIImagePickerController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InfoKey",
+                    "printedName": "UIKit.UIImagePickerController.InfoKey",
+                    "usr": "c:@T@UIImagePickerControllerInfoKey"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@IDScanCapture@objc(cs)ImagePicker(im)imagePickerController:didFinishPickingMediaWithInfo:",
+            "mangledName": "$s13IDScanCapture11ImagePickerC05imageD10Controller_29didFinishPickingMediaWithInfoySo07UIImagedF0C_SDySo0mdfL3KeyaypGtF",
+            "moduleName": "IDScanCapture",
+            "objc_name": "imagePickerController:didFinishPickingMediaWithInfo:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@IDScanCapture@objc(cs)ImagePicker",
+        "mangledName": "$s13IDScanCapture11ImagePickerC",
+        "moduleName": "IDScanCapture",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TensorFlowLite",
+        "printedName": "TensorFlowLite",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IDScanIDCaptureResult",
+        "printedName": "IDScanIDCaptureResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "frontImage",
+            "printedName": "frontImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13IDScanCapture0A15IDCaptureResultV10frontImageSo7UIImageCSgvp",
+            "mangledName": "$s13IDScanCapture0A15IDCaptureResultV10frontImageSo7UIImageCSgvp",
+            "moduleName": "IDScanCapture",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IDScanCapture0A15IDCaptureResultV10frontImageSo7UIImageCSgvg",
+                "mangledName": "$s13IDScanCapture0A15IDCaptureResultV10frontImageSo7UIImageCSgvg",
+                "moduleName": "IDScanCapture",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backImage",
+            "printedName": "backImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13IDScanCapture0A15IDCaptureResultV9backImageSo7UIImageCSgvp",
+            "mangledName": "$s13IDScanCapture0A15IDCaptureResultV9backImageSo7UIImageCSgvp",
+            "moduleName": "IDScanCapture",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IDScanCapture0A15IDCaptureResultV9backImageSo7UIImageCSgvg",
+                "mangledName": "$s13IDScanCapture0A15IDCaptureResultV9backImageSo7UIImageCSgvg",
+                "moduleName": "IDScanCapture",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceImage",
+            "printedName": "faceImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13IDScanCapture0A15IDCaptureResultV9faceImageSo7UIImageCSgvp",
+            "mangledName": "$s13IDScanCapture0A15IDCaptureResultV9faceImageSo7UIImageCSgvp",
+            "moduleName": "IDScanCapture",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IDScanCapture0A15IDCaptureResultV9faceImageSo7UIImageCSgvg",
+                "mangledName": "$s13IDScanCapture0A15IDCaptureResultV9faceImageSo7UIImageCSgvg",
+                "moduleName": "IDScanCapture",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "trackString",
+            "printedName": "trackString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13IDScanCapture0A15IDCaptureResultV11trackStringSSSgvp",
+            "mangledName": "$s13IDScanCapture0A15IDCaptureResultV11trackStringSSSgvp",
+            "moduleName": "IDScanCapture",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IDScanCapture0A15IDCaptureResultV11trackStringSSSgvg",
+                "mangledName": "$s13IDScanCapture0A15IDCaptureResultV11trackStringSSSgvg",
+                "moduleName": "IDScanCapture",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "documentType",
+            "printedName": "documentType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13IDScanCapture0A15IDCaptureResultV12documentTypeSivp",
+            "mangledName": "$s13IDScanCapture0A15IDCaptureResultV12documentTypeSivp",
+            "moduleName": "IDScanCapture",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IDScanCapture0A15IDCaptureResultV12documentTypeSivg",
+                "mangledName": "$s13IDScanCapture0A15IDCaptureResultV12documentTypeSivg",
+                "moduleName": "IDScanCapture",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13IDScanCapture0A15IDCaptureResultV",
+        "mangledName": "$s13IDScanCapture0A15IDCaptureResultV",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IDScanIDCaptureError",
+        "printedName": "IDScanIDCaptureError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "configIsInvalid",
+            "printedName": "configIsInvalid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IDScanCapture.IDScanIDCaptureError.Type) -> IDScanCapture.IDScanIDCaptureError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDScanIDCaptureError",
+                    "printedName": "IDScanCapture.IDScanIDCaptureError",
+                    "usr": "s:13IDScanCapture0A14IDCaptureErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IDScanCapture.IDScanIDCaptureError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDScanIDCaptureError",
+                        "printedName": "IDScanCapture.IDScanIDCaptureError",
+                        "usr": "s:13IDScanCapture0A14IDCaptureErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13IDScanCapture0A14IDCaptureErrorO15configIsInvalidyA2CmF",
+            "mangledName": "$s13IDScanCapture0A14IDCaptureErrorO15configIsInvalidyA2CmF",
+            "moduleName": "IDScanCapture"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDScanIDCaptureError",
+                "printedName": "IDScanCapture.IDScanIDCaptureError",
+                "usr": "s:13IDScanCapture0A14IDCaptureErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDScanIDCaptureError",
+                "printedName": "IDScanCapture.IDScanIDCaptureError",
+                "usr": "s:13IDScanCapture0A14IDCaptureErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13IDScanCapture0A14IDCaptureErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13IDScanCapture0A14IDCaptureErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "IDScanCapture",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13IDScanCapture0A14IDCaptureErrorO9hashValueSivp",
+            "mangledName": "$s13IDScanCapture0A14IDCaptureErrorO9hashValueSivp",
+            "moduleName": "IDScanCapture",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IDScanCapture0A14IDCaptureErrorO9hashValueSivg",
+                "mangledName": "$s13IDScanCapture0A14IDCaptureErrorO9hashValueSivg",
+                "moduleName": "IDScanCapture",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13IDScanCapture0A14IDCaptureErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13IDScanCapture0A14IDCaptureErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "IDScanCapture",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13IDScanCapture0A14IDCaptureErrorO",
+        "mangledName": "$s13IDScanCapture0A14IDCaptureErrorO",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IDScanIDCaptureDelegate",
+        "printedName": "IDScanIDCaptureDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "idCaptureResult",
+            "printedName": "idCaptureResult(sdk:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDScanIDCapture",
+                "printedName": "IDScanCapture.IDScanIDCapture",
+                "usr": "s:13IDScanCapture0A9IDCaptureC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDScanIDCaptureResult",
+                "printedName": "IDScanCapture.IDScanIDCaptureResult",
+                "usr": "s:13IDScanCapture0A15IDCaptureResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13IDScanCapture0A17IDCaptureDelegateP02idB6Result3sdk6resultyAA0aC0C_AA0acF0VtF",
+            "mangledName": "$s13IDScanCapture0A17IDCaptureDelegateP02idB6Result3sdk6resultyAA0aC0C_AA0acF0VtF",
+            "moduleName": "IDScanCapture",
+            "genericSig": "<τ_0_0 where τ_0_0 : IDScanCapture.IDScanIDCaptureDelegate>",
+            "sugared_genericSig": "<Self where Self : IDScanCapture.IDScanIDCaptureDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "idCaptureError",
+            "printedName": "idCaptureError(sdk:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDScanIDCapture",
+                "printedName": "IDScanCapture.IDScanIDCapture",
+                "usr": "s:13IDScanCapture0A9IDCaptureC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13IDScanCapture0A17IDCaptureDelegateP02idB5Error3sdk5erroryAA0aC0C_s0F0_ptF",
+            "mangledName": "$s13IDScanCapture0A17IDCaptureDelegateP02idB5Error3sdk5erroryAA0aC0C_s0F0_ptF",
+            "moduleName": "IDScanCapture",
+            "genericSig": "<τ_0_0 where τ_0_0 : IDScanCapture.IDScanIDCaptureDelegate>",
+            "sugared_genericSig": "<Self where Self : IDScanCapture.IDScanIDCaptureDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13IDScanCapture0A17IDCaptureDelegateP",
+        "mangledName": "$s13IDScanCapture0A17IDCaptureDelegateP",
+        "moduleName": "IDScanCapture",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IDScanIDCapture",
+        "printedName": "IDScanIDCapture",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(delegate:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDScanCapture.IDScanIDCapture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDScanIDCapture",
+                    "printedName": "IDScanCapture.IDScanIDCapture",
+                    "usr": "s:13IDScanCapture0A9IDCaptureC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDScanIDCaptureDelegate",
+                "printedName": "IDScanCapture.IDScanIDCaptureDelegate",
+                "usr": "s:13IDScanCapture0A17IDCaptureDelegateP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13IDScanCapture0A9IDCaptureC8delegate13configurationACSgAA0aC8Delegate_p_SDySSypGtcfc",
+            "mangledName": "$s13IDScanCapture0A9IDCaptureC8delegate13configurationACSgAA0aC8Delegate_p_SDySSypGtcfc",
+            "moduleName": "IDScanCapture",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13IDScanCapture0A9IDCaptureC5start4fromySo16UIViewControllerC_tF",
+            "mangledName": "$s13IDScanCapture0A9IDCaptureC5start4fromySo16UIViewControllerC_tF",
+            "moduleName": "IDScanCapture",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13IDScanCapture0A9IDCaptureC5closeyyF",
+            "mangledName": "$s13IDScanCapture0A9IDCaptureC5closeyyF",
+            "moduleName": "IDScanCapture",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13IDScanCapture0A9IDCaptureC",
+        "mangledName": "$s13IDScanCapture0A9IDCaptureC",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 416,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 446,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "Array",
+      "offset": 567,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 733,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 890,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 918,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 945,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "Array",
+      "offset": 1018,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1194,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1479,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1659,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1849,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1967,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2100,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2202,
+      "length": 21,
+      "value": "\"resizeUploadedImage\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2338,
+      "length": 15,
+      "value": "\"documentTypes\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2419,
+      "length": 12,
+      "value": "\"licenseKey\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2574,
+      "length": 19,
+      "value": "\"iOSPDFDetectorKey\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2653,
+      "length": 19,
+      "value": "\"iOSMRZDetectorKey\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2929,
+      "length": 26,
+      "value": "\"isShowDocumentTypeSelect\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3094,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3180,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CaptureConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3213,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1288,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1341,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 2227,
+      "length": 11,
+      "value": "\"IDCapture\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 2353,
+      "length": 18,
+      "value": "\"DocumentSteps_VC\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2449,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 2525,
+      "length": 15,
+      "value": "\"ID Validation\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3462,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3864,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4040,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4160,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4285,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 4767,
+      "length": 11,
+      "value": "\"IDCapture\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 4941,
+      "length": 24,
+      "value": "\"CompleteStepPreview_VC\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5166,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 5279,
+      "length": 13,
+      "value": "\"Scanning_VC\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5492,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "FloatLiteral",
+      "offset": 5580,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6223,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6284,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6349,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6411,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6479,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7569,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSelector_VC.swift",
+      "kind": "Array",
+      "offset": 370,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSelector_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 605,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSelector_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 794,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSelector_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 955,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSelector_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 1152,
+      "length": 22,
+      "value": "\"Select document type\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSelector_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1216,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSelector_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1297,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSelector_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1405,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSelector_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1487,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSelector_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1570,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSelector_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1585,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSelector_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1671,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSelector_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 2256,
+      "length": 14,
+      "value": "\"DocumentCell\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 8,
+      "value": "\"camera\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 8,
+      "value": "\"manual\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 8,
+      "value": "\"camera\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 8,
+      "value": "\"manual\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 801,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1146,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1971,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3201,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3331,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3346,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3448,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3463,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3574,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3697,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3712,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3834,
+      "length": 3,
+      "value": "-16"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3850,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4225,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4231,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4505,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4509,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4578,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4669,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4681,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4711,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4739,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4966,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4972,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 5318,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5324,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5683,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5815,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6145,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 6149,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 6512,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6518,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6737,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 6853,
+      "length": 34,
+      "value": "\"CameraAutocaptureBackground_Face\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 6966,
+      "length": 33,
+      "value": "\"CameraAutocaptureBackground_Doc\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7509,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7805,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 8154,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8212,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 8959,
+      "length": 38,
+      "value": "\"IDScanIDCapture: INVALID LICENSE KEY\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9214,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 9443,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "Array",
+      "offset": 9705,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9801,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9926,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9999,
+      "length": 3,
+      "value": "321"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10072,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10076,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10343,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10396,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10444,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10539,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10549,
+      "length": 3,
+      "value": "103"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10553,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10564,
+      "length": 3,
+      "value": "245"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10568,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10580,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10763,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10832,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11023,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11132,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11232,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11246,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11349,
+      "length": 2,
+      "value": "-6"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11364,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11488,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11493,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11496,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11510,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11633,
+      "length": 3,
+      "value": "-12"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11639,
+      "length": 3,
+      "value": "-12"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11643,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11657,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 11772,
+      "length": 21,
+      "value": "\"StepIsCompleteSmall\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12065,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12130,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12133,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12145,
+      "length": 3,
+      "value": "157"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12149,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12160,
+      "length": 2,
+      "value": "68"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12163,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12175,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12252,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12257,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12503,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 12573,
+      "length": 21,
+      "value": "\"DisclosureIndicator\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "Array",
+      "offset": 13173,
+      "length": 24,
+      "value": "[\"DLIC_MEX\", \"DLIC_USA\"]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "Array",
+      "offset": 13249,
+      "length": 9,
+      "value": "[\"PASSP\"]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "Array",
+      "offset": 13314,
+      "length": 13,
+      "value": "[\"PASSPCARD\"]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "Array",
+      "offset": 13380,
+      "length": 12,
+      "value": "[\"GC\", \"EA\"]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "Array",
+      "offset": 13451,
+      "length": 7,
+      "value": "[\"IID\"]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 13905,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 14392,
+      "length": 16,
+      "value": "\"Internal error\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 14458,
+      "length": 65,
+      "value": "\"The image has no documents or the document is of the wrong type\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 14572,
+      "length": 47,
+      "value": "\"The image has no MRZ or it is of poor quality\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 14668,
+      "length": 47,
+      "value": "\"The image has no PDF or it is of poor quality\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 14765,
+      "length": 48,
+      "value": "\"The image has no Face or it is of poor quality\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 14869,
+      "length": 19,
+      "value": "\"Wrong license key\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 15828,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 15856,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 15888,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 15921,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 16058,
+      "length": 4,
+      "value": "0.63"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 16156,
+      "length": 5,
+      "value": "0.075"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16185,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 16282,
+      "length": 4,
+      "value": "1.15"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 16321,
+      "length": 4,
+      "value": "1.15"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16388,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16454,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 17152,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 17167,
+      "length": 3,
+      "value": "1.2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 17182,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 17207,
+      "length": 3,
+      "value": "2.3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17223,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 17566,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 18141,
+      "length": 8,
+      "value": "\"string\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 18322,
+      "length": 8,
+      "value": "\"*demo*\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 18720,
+      "length": 8,
+      "value": "\"string\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 18901,
+      "length": 8,
+      "value": "\"*demo*\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19248,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19868,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 19920,
+      "length": 17,
+      "value": "\"CIColorControls\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 20041,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 20223,
+      "length": 25,
+      "value": "\"CIHighlightShadowAdjust\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 20372,
+      "length": 19,
+      "value": "\"inputShadowAmount\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 20543,
+      "length": 17,
+      "value": "\"CIColorControls\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 20855,
+      "length": 17,
+      "value": "\"CIColorControls\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 21170,
+      "length": 18,
+      "value": "\"CIExposureAdjust\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 21847,
+      "length": 15,
+      "value": "\"CIUnsharpMask\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 22309,
+      "length": 20,
+      "value": "\"CISharpenLuminance\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ImagePicker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 538,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ImagePicker.swift",
+      "kind": "Array",
+      "offset": 586,
+      "length": 16,
+      "value": "[\"public.image\"]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ImagePicker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 823,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ImagePicker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 979,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 10,
+      "value": "\"Passport\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 14,
+      "value": "\"PassportCard\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 11,
+      "value": "\"GreenCard\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 324,
+      "length": 17,
+      "value": "\"InternationalId\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 10,
+      "value": "\"Passport\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 14,
+      "value": "\"PassportCard\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 11,
+      "value": "\"GreenCard\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 324,
+      "length": 17,
+      "value": "\"InternationalId\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 492,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 592,
+      "length": 7,
+      "value": "\"steps\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "IntegerLiteral",
+      "offset": 818,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 1057,
+      "length": 31,
+      "value": "\"Driver’s License or ID Card\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 1140,
+      "length": 10,
+      "value": "\"Passport\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 1206,
+      "length": 15,
+      "value": "\"Passport Card\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 1274,
+      "length": 40,
+      "value": "\"Green Card or Employment Authorization\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 1373,
+      "length": 18,
+      "value": "\"International ID\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 1540,
+      "length": 59,
+      "value": "\"StepTypeImage_\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 1576,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 1598,
+      "length": 64,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 1765,
+      "length": 37,
+      "value": "\"StepTypeImage_\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 1801,
+      "length": 64,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 2094,
+      "length": 41,
+      "value": "\"StepScanningImage_\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 2134,
+      "length": 64,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 2301,
+      "length": 63,
+      "value": "\"StepScanningImage_\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 2341,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 2363,
+      "length": 64,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 2506,
+      "length": 47,
+      "value": "\"StepScanningImage_\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 2546,
+      "length": 6,
+      "value": "\"_front\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 2820,
+      "length": 12,
+      "value": "\"Upload the\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 2835,
+      "length": 10,
+      "value": "\"Scan the\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 2966,
+      "length": 12,
+      "value": "\"front side\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 3039,
+      "length": 11,
+      "value": "\"back side\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 3106,
+      "length": 6,
+      "value": "\"face\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 3181,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 3186,
+      "length": 21,
+      "value": "\"of the \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 3206,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 3232,
+      "length": 40,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 3245,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 3259,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 3271,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 3422,
+      "length": 7,
+      "value": "\"Front\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 3482,
+      "length": 6,
+      "value": "\"Back\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 3536,
+      "length": 6,
+      "value": "\"Face\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Common.swift",
+      "kind": "Array",
+      "offset": 942,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Common.swift",
+      "kind": "StringLiteral",
+      "offset": 1368,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Common.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1440,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Common.swift",
+      "kind": "FloatLiteral",
+      "offset": 1672,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Common.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1989,
+      "length": 9,
+      "value": "938468347"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Common.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2051,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Common.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2400,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Common.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2979,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Common.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3012,
+      "length": 9,
+      "value": "938468347"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Common.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3331,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Common.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3793,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 397,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 7,
+      "value": "\"model\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 490,
+      "length": 3,
+      "value": "224"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 503,
+      "length": 3,
+      "value": "224"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 574,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 751,
+      "length": 8,
+      "value": "\"tflite\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 796,
+      "length": 80,
+      "value": "\"Failed to load the model file with name: \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 874,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 994,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 1357,
+      "length": 76,
+      "value": "\"Failed to create the interpreter with error: \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 1432,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 1573,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 1660,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 2203,
+      "length": 19,
+      "value": "\"interpreter error\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 2518,
+      "length": 43,
+      "value": "\"sourcePixelFormat == \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 2560,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 2672,
+      "length": 25,
+      "value": "\"scaledPixelBuffer = nil\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3052,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 3102,
+      "length": 49,
+      "value": "\"Failed to convert the image buffer to RGB data.\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 3176,
+      "length": 49,
+      "value": "\"Failed to convert the image buffer to RGB data.\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3411,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3578,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 3628,
+      "length": 76,
+      "value": "\"Failed to invoke the interpreter with error: \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 3703,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 3725,
+      "length": 76,
+      "value": "\"Failed to invoke the interpreter with error: \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 3800,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3924,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 3940,
+      "length": 10,
+      "value": "\"scores =\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 4044,
+      "length": 9,
+      "value": "\"centers\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 4096,
+      "length": 8,
+      "value": "\"labels\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 4155,
+      "length": 11,
+      "value": "\"distances\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 4196,
+      "length": 15,
+      "value": "\"centers error\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4324,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4420,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4564,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 4747,
+      "length": 21,
+      "value": "\"distances min error\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4915,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 4933,
+      "length": 21,
+      "value": "\"Quality: \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 4953,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 5164,
+      "length": 20,
+      "value": "\"Document: \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 5183,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 5405,
+      "length": 15,
+      "value": "\"centers_types\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 5442,
+      "length": 6,
+      "value": "\"json\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "Dictionary",
+      "offset": 5485,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 5829,
+      "length": 9,
+      "value": "\"Centers\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 6140,
+      "length": 8,
+      "value": "\"Center\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 6187,
+      "length": 8,
+      "value": "\"Series\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 6234,
+      "length": 8,
+      "value": "\"TypeID\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 6278,
+      "length": 11,
+      "value": "\"Threshold\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 6580,
+      "length": 9,
+      "value": "\"centers\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 6600,
+      "length": 8,
+      "value": "\"labels\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 6618,
+      "length": 11,
+      "value": "\"labelsInt\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 6642,
+      "length": 11,
+      "value": "\"distances\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "Dictionary",
+      "offset": 6717,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "Dictionary",
+      "offset": 6755,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7379,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 7847,
+      "length": 22,
+      "value": "\"Error: out of memory\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 21,
+      "value": "\"IDScanCapture.IDScanDocTypeDetector\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10609,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10696,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11747,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11838,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13944,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14914,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14937,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15382,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/IDScanIDCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1540,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/IDScanIDCapture.swift",
+      "kind": "StringLiteral",
+      "offset": 2112,
+      "length": 11,
+      "value": "\"IDCapture\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/IDScanIDCapture.swift",
+      "kind": "StringLiteral",
+      "offset": 2232,
+      "length": 21,
+      "value": "\"DocumentSelector_VC\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/IDScanIDCapture.swift",
+      "kind": "StringLiteral",
+      "offset": 2303,
+      "length": 15,
+      "value": "\"ID Validation\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/IDScanIDCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2571,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/IDScanIDCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2720,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/IDScanIDCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2951,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 277,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 304,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 338,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 363,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 537,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 436,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 603,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1286,
+      "length": 9,
+      "value": "\"running\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1360,
+      "length": 9,
+      "value": "\"running\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1654,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1861,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1994,
+      "length": 4,
+      "value": "-4.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2287,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1709,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "Array",
+      "offset": 2650,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3300,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3561,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3893,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4265,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 6960,
+      "length": 8,
+      "value": "\"device\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 6971,
+      "length": 14,
+      "value": "\"DeviceCamera\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7390,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7560,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8333,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8474,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8551,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8612,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8620,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9168,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9791,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10226,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10356,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10398,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10441,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 10588,
+      "length": 17,
+      "value": "\"appearAnimation\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10676,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10835,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11954,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11962,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12083,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12925,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13090,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13700,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13808,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14286,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 15465,
+      "length": 9,
+      "value": "\"running\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15846,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15944,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 16570,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17188,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17325,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 18423,
+      "length": 38,
+      "value": "\"Can not connect to the camera device\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 18598,
+      "length": 13,
+      "value": "\"Application\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 18635,
+      "length": 147,
+      "value": "\"The \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 18650,
+      "length": 3,
+      "value": "\" has not been given a permission to your camera.\n\nPlease check the Privacy Settings:\nSettings -> \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 18760,
+      "length": 2,
+      "value": "\" -> Privacy -> Camera\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 18914,
+      "length": 30,
+      "value": "\"Can't lock the camera device\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 19062,
+      "length": 22,
+      "value": "\"Can't set torch mode\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20383,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21146,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21305,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21326,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21495,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21519,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22592,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22679,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23730,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23821,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ManualUploadPicker_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 524,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ManualUploadPicker_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 1096,
+      "length": 11,
+      "value": "\"Add Photo\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ManualUploadPicker_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 1126,
+      "length": 10,
+      "value": "\"Complete\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ManualUploadPicker_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 1139,
+      "length": 11,
+      "value": "\"Next Step\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ManualUploadPicker_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 1263,
+      "length": 8,
+      "value": "\"Upload\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ManualUploadPicker_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1591,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ManualUploadPicker_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1654,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ManualUploadPicker_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 1664,
+      "length": 4,
+      "value": "0.12"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ManualUploadPicker_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1771,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ManualUploadPicker_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1791,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ManualUploadPicker_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2289,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/ManualUploadPicker_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 2532,
+      "length": 15,
+      "value": "\"❗️\nError\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CompleteStepPreview_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 525,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CompleteStepPreview_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 758,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CompleteStepPreview_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 821,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CompleteStepPreview_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 831,
+      "length": 4,
+      "value": "0.12"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CompleteStepPreview_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1673,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 149,
+      "length": 7,
+      "value": "\"front\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 5,
+      "value": "\"mrz\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 5,
+      "value": "\"pdf\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 6,
+      "value": "\"face\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 149,
+      "length": 7,
+      "value": "\"front\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 5,
+      "value": "\"mrz\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 5,
+      "value": "\"pdf\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 6,
+      "value": "\"face\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 8,
+      "value": "\"camera\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 371,
+      "length": 8,
+      "value": "\"manual\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 6,
+      "value": "\"both\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 8,
+      "value": "\"camera\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 371,
+      "length": 8,
+      "value": "\"manual\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 6,
+      "value": "\"both\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 564,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
+      "length": 6,
+      "value": "\"mode\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 731,
+      "length": 10,
+      "value": "\"uploader\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 771,
+      "length": 7,
+      "value": "\"video\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/Step.swift",
+      "kind": "StringLiteral",
+      "offset": 811,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 278,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 483,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 567,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 967,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 652,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1247,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 2300,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 2312,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 2341,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 2369,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2700,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2704,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3074,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3231,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3351,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 3402,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 3414,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 3443,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 3471,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3581,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 3677,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 3725,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 3737,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 3766,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 3794,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3908,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3975,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4131,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4183,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4195,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4224,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4252,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4360,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4397,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4435,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4479,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4575,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4609,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4671,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4700,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4728,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4840,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4881,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4923,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 5317,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 5329,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 5358,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 5386,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5494,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5531,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5569,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5613,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5650,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5696,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 5795,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "Array",
+      "offset": 6113,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 6194,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6239,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 6355,
+      "length": 6,
+      "value": "\"◦ \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 6458,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 6597,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7265,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7753,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8053,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8387,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8685,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8783,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8886,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8972,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9052,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 9397,
+      "length": 17,
+      "value": "\"need more light\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 9465,
+      "length": 10,
+      "value": "\"too dark\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 9527,
+      "length": 27,
+      "value": "\"device is moving too much\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 703,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 709,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 759,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 885,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 912,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1514,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1601,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "kind": "Array",
+      "offset": 1969,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1039,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1051,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1075,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 1253,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1317,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 1327,
+      "length": 4,
+      "value": "0.12"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1400,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1467,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 1477,
+      "length": 4,
+      "value": "0.12"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1585,
+      "length": 2,
+      "value": "76"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 2054,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2061,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 2257,
+      "length": 8,
+      "value": "\"Submit\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 2275,
+      "length": 10,
+      "value": "\"Continue\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 2288,
+      "length": 12,
+      "value": "\"→  Start\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 2844,
+      "length": 17,
+      "value": "\"Reset All Steps\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 2872,
+      "length": 43,
+      "value": "\"Are you sure you want to reset all steps?\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 2996,
+      "length": 5,
+      "value": "\"Yes\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3131,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3196,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3208,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3232,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 3305,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3380,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3498,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3623,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3681,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3920,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 4126,
+      "length": 40,
+      "value": "\"Are you sure? All steps will be reset?\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 4269,
+      "length": 5,
+      "value": "\"Yes\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 4494,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4608,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4690,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4987,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5058,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5223,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5260,
+      "length": 3,
+      "value": "108"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5380,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5499,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5697,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 5701,
+      "length": 15,
+      "value": "\"Document type\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 5719,
+      "length": 7,
+      "value": "\"Steps\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5768,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5849,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5957,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6039,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6122,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6137,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6223,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6329,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6495,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6534,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6538,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6802,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 6875,
+      "length": 14,
+      "value": "\"DocumentCell\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 7423,
+      "length": 10,
+      "value": "\"StepCell\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7510,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8118,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8318,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 8548,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8555,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 8614,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8620,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 8812,
+      "length": 10,
+      "value": "\"Complete\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 8825,
+      "length": 25,
+      "value": "\"Step \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "StringLiteral",
+      "offset": 8849,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9178,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 9182,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 9500,
+      "length": 5,
+      "value": "0.067"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 9514,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 9526,
+      "length": 5,
+      "value": "0.117"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 9540,
+      "length": 4,
+      "value": "0.08"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9627,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9691,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9702,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DVS_SDK\/IDScanCaptureLib\/IDScanCapture\/DocumentSteps_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9753,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 12,
+      "value": "\"BackButton\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 29,
+      "value": "\"CameraAutocaptureBackground\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1109,
+      "length": 33,
+      "value": "\"CameraAutocaptureBackground_Doc\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1315,
+      "length": 34,
+      "value": "\"CameraAutocaptureBackground_Face\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1497,
+      "length": 21,
+      "value": "\"DisclosureIndicator\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1638,
+      "length": 7,
+      "value": "\"Empty\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1777,
+      "length": 13,
+      "value": "\"FlashButton\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1928,
+      "length": 16,
+      "value": "\"NoCameraAccess\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2066,
+      "length": 8,
+      "value": "\"Retake\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2212,
+      "length": 16,
+      "value": "\"StepIsComplete\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2376,
+      "length": 21,
+      "value": "\"StepIsCompleteSmall\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2571,
+      "length": 35,
+      "value": "\"StepScanningImage_GreenCard_front\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2776,
+      "length": 33,
+      "value": "\"StepScanningImage_GreenCard_mrz\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2969,
+      "length": 28,
+      "value": "\"StepScanningImage_ID_front\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3153,
+      "length": 26,
+      "value": "\"StepScanningImage_ID_pdf\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3365,
+      "length": 41,
+      "value": "\"StepScanningImage_InternationalId_front\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3588,
+      "length": 39,
+      "value": "\"StepScanningImage_InternationalId_mrz\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3807,
+      "length": 38,
+      "value": "\"StepScanningImage_PassportCard_front\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4021,
+      "length": 36,
+      "value": "\"StepScanningImage_PassportCard_mrz\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4229,
+      "length": 34,
+      "value": "\"StepScanningImage_Passport_front\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4431,
+      "length": 32,
+      "value": "\"StepScanningImage_Passport_mrz\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4616,
+      "length": 24,
+      "value": "\"StepScanningImage_face\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4792,
+      "length": 24,
+      "value": "\"StepTypeImage_ID_front\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4994,
+      "length": 37,
+      "value": "\"StepTypeImage_InternationalId_front\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5195,
+      "length": 30,
+      "value": "\"StepTypeImage_Passport_front\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5370,
+      "length": 20,
+      "value": "\"StepTypeImage_face\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5533,
+      "length": 19,
+      "value": "\"StepTypeImage_mrz\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5695,
+      "length": 19,
+      "value": "\"StepTypeImage_pdf\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5838,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Library\/Developer\/Xcode\/DerivedData\/IDScanCapture-awkkkxxjhmyhsgfbveevvhcilbvl\/Build\/Intermediates.noindex\/DependentBuilds\/IDScanCapture.build\/Release-iphoneos\/IDScanCapture.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5969,
+      "length": 8,
+      "value": "\"Upload\""
+    }
+  ]
+}

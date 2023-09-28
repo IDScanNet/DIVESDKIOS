@@ -1,0 +1,60 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IDScanCapture
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Accelerate
+import CoreImage
+import CoreMedia
+import CoreMotion
+import DeveloperToolsSupport
+import Foundation
+import IDScanMRZDetector
+import IDScanPDFDetector
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct CaptureConfiguration {
+  public init?(json: [Swift.String : Any])
+}
+@objc @_inheritsConvenienceInitializers open class ImagePicker : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  public func present(on presentationController: UIKit.UIViewController)
+  @objc deinit
+}
+extension IDScanCapture.ImagePicker : UIKit.UIImagePickerControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func imagePickerControllerDidCancel(_ picker: UIKit.UIImagePickerController)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
+}
+extension IDScanCapture.ImagePicker : UIKit.UINavigationControllerDelegate {
+}
+public struct IDScanIDCaptureResult {
+  public let frontImage: UIKit.UIImage?
+  public let backImage: UIKit.UIImage?
+  public let faceImage: UIKit.UIImage?
+  public let trackString: Swift.String?
+  public let documentType: Swift.Int
+}
+public enum IDScanIDCaptureError : Swift.Error {
+  case configIsInvalid
+  public static func == (a: IDScanCapture.IDScanIDCaptureError, b: IDScanCapture.IDScanIDCaptureError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol IDScanIDCaptureDelegate : AnyObject {
+  func idCaptureResult(sdk: IDScanCapture.IDScanIDCapture, result: IDScanCapture.IDScanIDCaptureResult)
+  func idCaptureError(sdk: IDScanCapture.IDScanIDCapture, error: any Swift.Error)
+}
+public class IDScanIDCapture {
+  public init?(delegate: any IDScanCapture.IDScanIDCaptureDelegate, configuration: [Swift.String : Any])
+  public func start(from rootVC: UIKit.UIViewController)
+  public func close()
+  @objc deinit
+}
+extension IDScanCapture.IDScanIDCaptureError : Swift.Equatable {}
+extension IDScanCapture.IDScanIDCaptureError : Swift.Hashable {}

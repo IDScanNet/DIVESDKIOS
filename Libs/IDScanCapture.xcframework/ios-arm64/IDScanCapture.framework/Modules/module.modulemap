@@ -1,0 +1,4 @@
+framework module IDScanCapture {
+  header "IDScanCapture-Swift.h"
+  requires objc
+}

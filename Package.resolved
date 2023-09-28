@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "bc268c28fb170f494de9e9927c371b8342979ece",
+          "version": "5.7.1"
+        }
+      },
+      {
+        "package": "IDScanIDDetector",
+        "repositoryURL": "https://github.com/IDScanNet/IDScanIDDetectorIOS.git",
+        "state": {
+          "branch": null,
+          "revision": "feff3e080e93d7cdd5e4535abd46f79a02771463",
+          "version": "1.220127.1"
+        }
+      },
+      {
+        "package": "IDScanToolsIOS",
+        "repositoryURL": "https://github.com/IDScanNet/IDScanToolsIOS.git",
+        "state": {
+          "branch": null,
+          "revision": "af61a5ca1137a1af95858c166094425afc278795",
+          "version": "1.230616.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
