@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		y9u0w7ZbebWgC5S2o5Y1T1Kw6Gg=
+		O8paSSr60PzBTg1isxWIUQqYQC0=
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Qjh6xWBvLGg5426bXHpytcW7ep8=
+		ARCH8tsUVvT2e9kMYWmow5xq9B0=
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		y9u0w7ZbebWgC5S2o5Y1T1Kw6Gg=
+		O8paSSr60PzBTg1isxWIUQqYQC0=
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		d48X5r6xAK7Z97AeahGubHMJHyE=
+		5UasZzLK4K6M1WwzgV5VUhdMwNw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -224,7 +224,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KboCMwLYcTj+sxYWRF8c6mfx6FpRJ+wBft5lRpY100U=
+			3qVofdsWcsVxzWmgMXtmurpdi8rgGc+LcgIXS4Ie698=
 			</data>
 		</dict>
 		<key>Modules/IDScanCapture.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -252,14 +252,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NxNrqC5dropTReKY5ZOpQQKTe9ggEQW318kJ+k09LUc=
+			vt2t/0W0JO0Xj1HaavDBC6+rVBQIXBWL2RNni5R7iow=
 			</data>
 		</dict>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KboCMwLYcTj+sxYWRF8c6mfx6FpRJ+wBft5lRpY100U=
+			3qVofdsWcsVxzWmgMXtmurpdi8rgGc+LcgIXS4Ie698=
 			</data>
 		</dict>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -287,7 +287,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kvPy6+aIl/ik/8rS2Km95Uul0d2bvmDnS+1bnS9Qf2U=
+			n3nRRjz3R9zcYzbpUzBtdwfReXKnbpPXKCAbyicjLOY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
