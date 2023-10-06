@@ -18,14 +18,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/IDScanNet/IDScanIDDetectorIOS.git", .upToNextMajor(from: "1.0.0")),
-        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.0.0")),
         .package(url: "https://github.com/IDScanNet/IDScanToolsIOS.git", .upToNextMajor(from: "1.0.0"))
     ],
     targets: [
         .target(
             name: "DIVESDKCommon",
             dependencies: [
-                "Alamofire"
+                
             ]
         ),
         .target(
@@ -36,8 +35,7 @@ let package = Package(
                 .product(name: "IDScanPDFDetector", package: "IDScanIDDetectorIOS"),
                 .product(name: "IDScanMRZDetector", package: "IDScanIDDetectorIOS"),
                 .product(name: "IDSSystemInfo", package: "IDScanToolsIOS"),
-                .product(name: "IDSLocationManager", package: "IDScanToolsIOS"),
-                "Alamofire"
+                .product(name: "IDSLocationManager", package: "IDScanToolsIOS")
             ]
         ),
         .target(
@@ -46,8 +44,7 @@ let package = Package(
                 "DIVESDKCommon",
                 "IDScanCapture",
                 .product(name: "IDScanPDFDetector", package: "IDScanIDDetectorIOS"),
-                .product(name: "IDScanMRZDetector", package: "IDScanIDDetectorIOS"),
-                "Alamofire"
+                .product(name: "IDScanMRZDetector", package: "IDScanIDDetectorIOS")
             ]
         ),
         .binaryTarget(

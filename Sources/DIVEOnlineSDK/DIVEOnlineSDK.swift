@@ -18,6 +18,7 @@ import IDSLocationManager
     private let token: String
     private var captureSDK: IDScanIDCapture? = nil
     private let locMan = IDSLocationManager()
+    private let network = DIVENetwork()
     
     @objc private weak var delegate: DIVESDKDelegate?
     
@@ -62,7 +63,7 @@ import IDSLocationManager
     
     @objc public func loadConfiguration(handler block: @escaping (Error?) -> Void) {
         let url = "\(self.baseURL)/Integrations/\(self.integrationID)/Configuration"
-        DIVENetwork.request(url: url, method: .get, token: self.token) { result in
+        self.network.request(url: url, method: "GET", token: self.token) { result in
             switch result {
                 case .success(let resultDic):
                     do {
@@ -92,7 +93,7 @@ import IDSLocationManager
         let url = "\(baseURL)/Validation"
         var params: [String : Any] = ["model" : result.requestParams, "applicantId": self.applicantID]
         params.merge(self.additionalInfoRequestParams) { (_, new) in new }
-        DIVENetwork.request(url: url, method: .post, parameters: params, token: self.token, completionHandler: block, progressHandler: progressBlock)
+        self.network.request(url: url, method: "POST", parameters: params, token: self.token, completionHandler: block, progressHandler: progressBlock)
     }
     
     // MARK: -

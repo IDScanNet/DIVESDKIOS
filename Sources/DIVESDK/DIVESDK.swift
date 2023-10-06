@@ -13,6 +13,7 @@ import DIVESDKCommon
     private let baseURL = "https://dvs2.idware.net/api/v3"
     private let token: String
     private var captureSDK: IDScanIDCapture? = nil
+    private let network = DIVENetwork()
     
     @objc private weak var delegate: DIVESDKDelegate?
     
@@ -58,7 +59,7 @@ import DIVESDKCommon
     
     private func sendResult(result: IDScanIDCaptureResult, handler block: @escaping (DIVESDKResult) -> Void, progress progressBlock: @escaping (Float, TimeInterval) -> Void) {
         let url = "\(baseURL)/Verify"
-        DIVENetwork.request(url: url, method: .post, parameters: result.requestParams, token: self.token, completionHandler: block, progressHandler: progressBlock)
+        self.network.request(url: url, method: "POST", parameters: result.requestParams, token: self.token, completionHandler: block, progressHandler: progressBlock)
     }
     
     // MARK: -
