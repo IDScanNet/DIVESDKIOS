@@ -52,6 +52,22 @@ public protocol IDScanIDCaptureDelegate : AnyObject {
   func idCaptureError(sdk: IDScanCapture.IDScanIDCapture, error: any Swift.Error)
 }
 public class IDScanIDCapture {
+  public var vibroFeedback: Swift.Bool {
+    get
+    set
+  }
+  public var logs: Swift.Bool {
+    get
+    set
+  }
+  public var checkForBlur: Swift.Bool {
+    get
+    set
+  }
+  public var blurTreshold: Swift.Double {
+    get
+    set
+  }
   public init?(delegate: any IDScanCapture.IDScanIDCaptureDelegate, configuration: [Swift.String : Any])
   public func start(from rootVC: UIKit.UIViewController)
   public func close()

@@ -16,6 +16,27 @@ import DIVESDKCommon
     
     @objc private weak var delegate: DIVESDKDelegate?
     
+    @objc public var vibroFeedback = true {
+        didSet {
+            self.captureSDK?.vibroFeedback = self.vibroFeedback
+        }
+    }
+    @objc public var logs = false {
+        didSet {
+            self.captureSDK?.logs = self.logs
+        }
+    }
+    @objc public var checkForBlur = true {
+        didSet {
+            self.captureSDK?.checkForBlur = self.checkForBlur
+        }
+    }
+    @objc public var blurTreshold = 0.6 {
+        didSet {
+            self.captureSDK?.blurTreshold = self.blurTreshold
+        }
+    }
+    
     @objc public var ready: Bool {
         self.captureSDK != nil
     }
@@ -27,6 +48,10 @@ import DIVESDKCommon
         self.delegate = delegate
         super.init()
         self.captureSDK = IDScanIDCapture(delegate: self, configuration: configuration)
+        self.captureSDK?.vibroFeedback = self.vibroFeedback
+        self.captureSDK?.logs = self.logs
+        self.captureSDK?.checkForBlur = self.checkForBlur
+        self.captureSDK?.blurTreshold = self.blurTreshold
     }
     
     // MARK: -
