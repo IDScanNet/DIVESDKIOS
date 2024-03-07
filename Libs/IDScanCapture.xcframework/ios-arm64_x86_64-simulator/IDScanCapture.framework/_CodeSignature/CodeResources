@@ -66,11 +66,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fnGBYyYAeoIGKvMxDiWNOD/8LP8=
+		llD5Uv7honnvobUZY3E3mySXl7s=
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		xDDzin2IMABjevqpFI/IMeHYgYI=
+		FzbcCpB0GAI8xQN2YryPbScZv/w=
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		xDDzin2IMABjevqpFI/IMeHYgYI=
+		FzbcCpB0GAI8xQN2YryPbScZv/w=
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -224,7 +224,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+xAQh5Dm+YzhY3E21laFCXO5A8XFiagm3m+bPGJfiUg=
+			zOSnR/wbBYrJpaBwJOPWdiDgzIZGVwTYCpBValIBfAI=
 			</data>
 		</dict>
 		<key>Modules/IDScanCapture.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -259,7 +259,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+xAQh5Dm+YzhY3E21laFCXO5A8XFiagm3m+bPGJfiUg=
+			zOSnR/wbBYrJpaBwJOPWdiDgzIZGVwTYCpBValIBfAI=
 			</data>
 		</dict>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
