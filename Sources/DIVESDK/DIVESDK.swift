@@ -65,12 +65,16 @@ import DIVESDKCommon
     // MARK: -
     
     @objc public func start(from rootVC: UIViewController) {
+        self.start(from: rootVC, contentInset: nil)
+    }
+    
+    public func start(from rootVC: UIViewController, contentInset: UIEdgeInsets?) {
         guard let captureSDK = self.captureSDK else {
             self.delegate?.diveSDKError(sdk: self, error: DIVEError.configIsNotReady)
             return
         }
         
-        captureSDK.start(from: rootVC)
+        captureSDK.start(from: rootVC, contentInset: contentInset)
     }
     
     @objc public func close() {

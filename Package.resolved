@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "IDScanIDDetector",
+        "repositoryURL": "https://github.com/IDScanNet/IDScanIDDetectorIOS.git",
+        "state": {
+          "branch": null,
+          "revision": "d8df86680be00fbab065d5568b26ce0252fc5a77",
+          "version": "1.231002.2"
+        }
+      },
+      {
+        "package": "IDScanToolsIOS",
+        "repositoryURL": "https://github.com/IDScanNet/IDScanToolsIOS.git",
+        "state": {
+          "branch": null,
+          "revision": "a60e470df04ce89d053f7684e79d1c0880dd1be8",
+          "version": "1.240129.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -69,7 +69,7 @@ public class IDScanIDCapture {
     set
   }
   public init?(delegate: any IDScanCapture.IDScanIDCaptureDelegate, configuration: [Swift.String : Any])
-  public func start(from rootVC: UIKit.UIViewController)
+  public func start(from rootVC: UIKit.UIViewController, contentInset: UIKit.UIEdgeInsets? = nil)
   public func close()
   @objc deinit
 }
