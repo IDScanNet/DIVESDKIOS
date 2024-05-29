@@ -21,6 +21,11 @@ import _SwiftConcurrencyShims
 public struct CaptureConfiguration {
   public init?(json: [Swift.String : Any])
 }
+public struct IDScanIDCaptureTheme {
+  public let accentColor: UIKit.UIColor
+  public let fontSizeModifier: CoreFoundation.CGFloat
+  public init(accentColor: UIKit.UIColor = UIColor(red: 0, green: 103/255, blue: 245/255, alpha: 1), fontSizeModifier: CoreFoundation.CGFloat = 0)
+}
 @objc @_inheritsConvenienceInitializers open class ImagePicker : ObjectiveC.NSObject {
   @objc override dynamic public init()
   public func present(on presentationController: UIKit.UIViewController)
@@ -68,7 +73,7 @@ public class IDScanIDCapture {
     get
     set
   }
-  public init?(delegate: any IDScanCapture.IDScanIDCaptureDelegate, configuration: [Swift.String : Any])
+  public init?(delegate: any IDScanCapture.IDScanIDCaptureDelegate, configuration: [Swift.String : Any], theme: IDScanCapture.IDScanIDCaptureTheme = .init())
   public func start(from rootVC: UIKit.UIViewController, contentInset: UIKit.UIEdgeInsets? = nil)
   public func close()
   @objc deinit
