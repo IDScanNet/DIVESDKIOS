@@ -19,6 +19,7 @@ import IDSLocationManager
     private var captureSDK: IDScanIDCapture? = nil
     private let locMan = IDSLocationManager()
     private let network = DIVENetwork()
+    private let theme: IDScanIDCaptureTheme
     
     @objc private weak var delegate: DIVESDKDelegate?
     
@@ -47,12 +48,13 @@ import IDSLocationManager
         self.captureSDK != nil
     }
     
-    @objc public init(applicantID: String, integrationID: String, token: String, baseURL: String, delegate: DIVESDKDelegate) {
+    @objc public init(applicantID: String, integrationID: String, token: String, baseURL: String, delegate: DIVESDKDelegate, theme: DIVESDKTheme? = nil) {
         self.applicantID = applicantID
         self.integrationID = integrationID
         self.token = token
         self.baseURL = baseURL
         self.delegate = delegate
+        self.theme = IDScanIDCaptureTheme(theme)
     }
     
     // MARK: -
@@ -70,7 +72,7 @@ import IDSLocationManager
                         if let jsonString = resultDic["jsonSettings"] as? String,
                            let data = jsonString.data(using: .utf8),
                            let jsonSettings = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any],
-                           let capture = IDScanIDCapture(delegate: self, configuration: jsonSettings) {
+                           let capture = IDScanIDCapture(delegate: self, configuration: jsonSettings, theme: self.theme) {
                             self.captureSDK = capture
                             self.captureSDK?.vibroFeedback = self.vibroFeedback
                             self.captureSDK?.logs = self.logs

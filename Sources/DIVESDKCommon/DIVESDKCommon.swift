@@ -130,6 +130,26 @@ public class DIVENetwork {
 
 import IDScanCapture
 
+@objc public class DIVESDKTheme: NSObject {
+    var accentColor: UIColor
+    var fontSizeModifier: CGFloat
+    
+    public init(accentColor: UIColor, fontSizeModifier: CGFloat) {
+        self.accentColor = accentColor
+        self.fontSizeModifier = fontSizeModifier
+    }
+}
+
+extension IDScanIDCaptureTheme {
+    public init(_ theme: DIVESDKTheme?) {
+        if let theme = theme {
+            self.init(accentColor: theme.accentColor, fontSizeModifier: theme.fontSizeModifier)
+        } else {
+            self.init()
+        }
+    }
+}
+
 public extension IDScanIDCaptureResult {
     var requestParams: [String : Any] {
         var model: [String : Any] = [:]

@@ -42,13 +42,13 @@ import DIVESDKCommon
         self.captureSDK != nil
     }
     
-    @objc public init?(configuration: [String : Any], token: String, delegate: DIVESDKDelegate) {
+    @objc public init?(configuration: [String : Any], token: String, delegate: DIVESDKDelegate, theme: DIVESDKTheme? = nil) {
         guard CaptureConfiguration(json: configuration) != nil else { return nil }
         
         self.token = token
         self.delegate = delegate
         super.init()
-        self.captureSDK = IDScanIDCapture(delegate: self, configuration: configuration)
+        self.captureSDK = IDScanIDCapture(delegate: self, configuration: configuration, theme: IDScanIDCaptureTheme(theme))
         self.captureSDK?.vibroFeedback = self.vibroFeedback
         self.captureSDK?.logs = self.logs
         self.captureSDK?.checkForBlur = self.checkForBlur
