@@ -15,6 +15,7 @@ import Swift
 import SwiftUI
 
 import UIKit
+import Vision
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -43,6 +44,7 @@ public struct IDScanIDCaptureResult {
   public let faceImage: UIKit.UIImage?
   public let trackString: Swift.String?
   public let documentType: Swift.Int
+  public let realFaceMode: Swift.Bool
 }
 public enum IDScanIDCaptureError : Swift.Error {
   case configIsInvalid

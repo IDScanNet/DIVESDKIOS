@@ -167,6 +167,11 @@ public extension IDScanIDCaptureResult {
         }
         model["documentType"] = self.documentType
         
+        let overriddenSettings = ["IsOCREnabled" : self.frontImage != nil]
+        model["OverriddenSettings"] = overriddenSettings
+        
+        model["verifyFace"] = self.frontImage != nil
+        
         return model
     }
 }
