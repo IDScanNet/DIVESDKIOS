@@ -10,7 +10,7 @@ import IDScanCapture
 import DIVESDKCommon
 
 @objc public class DIVESDK: NSObject, IDScanIDCaptureDelegate {
-    private let baseURL = "https://dvs2.idware.net/api/v3"
+    private var baseURL = "https://dive.idscan.net/api/v3"
     private let token: String
     private var captureSDK: IDScanIDCapture? = nil
     private let network = DIVENetwork()
@@ -42,10 +42,13 @@ import DIVESDKCommon
         self.captureSDK != nil
     }
     
-    @objc public init?(configuration: [String : Any], token: String, delegate: DIVESDKDelegate, theme: DIVESDKTheme? = nil) {
+    @objc public init?(configuration: [String : Any], token: String, baseURL: String? = nil, delegate: DIVESDKDelegate, theme: DIVESDKTheme? = nil) {
         guard CaptureConfiguration(json: configuration) != nil else { return nil }
         
         self.token = token
+        if let baseURL = baseURL {
+            self.baseURL = baseURL
+        }
         self.delegate = delegate
         super.init()
         self.captureSDK = IDScanIDCapture(delegate: self, configuration: configuration, theme: IDScanIDCaptureTheme(theme))
@@ -58,7 +61,7 @@ import DIVESDKCommon
     // MARK: -
     
     private func sendResult(result: IDScanIDCaptureResult, handler block: @escaping (DIVESDKResult) -> Void, progress progressBlock: @escaping (Float, TimeInterval) -> Void) {
-        let url = "\(baseURL)/Verify"
+        let url = "\(baseURL)/" + (self.token.hasPrefix("sk") ? "Verify" : "Request")
         self.network.request(url: url, method: "POST", parameters: result.requestParams, token: self.token, completionHandler: block, progressHandler: progressBlock)
     }
     

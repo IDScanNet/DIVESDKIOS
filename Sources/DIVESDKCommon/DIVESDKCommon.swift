@@ -170,7 +170,7 @@ public extension IDScanIDCaptureResult {
         let overriddenSettings = ["IsOCREnabled" : self.frontImage != nil]
         model["OverriddenSettings"] = overriddenSettings
         
-        model["verifyFace"] = self.frontImage != nil
+        model["verifyFace"] = self.frontImage != nil && self.faceImage != nil
         
         return model
     }
