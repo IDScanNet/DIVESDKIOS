@@ -2194,28 +2194,154 @@
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7815,
-      "length": 25,
-      "value": "\"Keep your head straight\""
+      "offset": 7823,
+      "length": 28,
+      "value": "\"Please, look at the camera\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7880,
-      "length": 29,
-      "value": "\"Turn your head to the right\""
+      "offset": 7894,
+      "length": 25,
+      "value": "\">>> Face the camera <<<\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 7961,
+      "length": 33,
+      "value": "\"Turn your head to the Right >>>\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 8035,
+      "length": 32,
+      "value": "\"<<< Turn your head to the Left\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "FloatLiteral",
+      "offset": 8165,
+      "length": 5,
+      "value": "0.498"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "FloatLiteral",
+      "offset": 8179,
+      "length": 5,
+      "value": "1.000"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "FloatLiteral",
+      "offset": 8192,
+      "length": 5,
+      "value": "0.400"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "FloatLiteral",
+      "offset": 8206,
+      "length": 4,
+      "value": "1.00"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 8348,
+      "length": 5,
+      "value": "\">>>\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 8436,
+      "length": 5,
+      "value": "\"<<<\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 8620,
+      "length": 28,
+      "value": "\"Please, look at the camera\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 8736,
+      "length": 21,
+      "value": "\"  Face the camera  \""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 8130,
+      "offset": 8803,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 8989,
+      "length": 31,
+      "value": "\"Turn your head to the Right  \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 9205,
+      "length": 30,
+      "value": "\"  Turn your head to the Left\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9280,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9493,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "FloatLiteral",
+      "offset": 9543,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "FloatLiteral",
+      "offset": 9595,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "FloatLiteral",
+      "offset": 9648,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9873,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 8295,
+      "offset": 10038,
       "length": 4,
       "value": "true"
     },
@@ -2474,1043 +2600,952 @@
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 5137,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "FloatLiteral",
-      "offset": 5149,
-      "length": 4,
-      "value": "0.05"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "FloatLiteral",
-      "offset": 5179,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "FloatLiteral",
-      "offset": 5207,
-      "length": 3,
-      "value": "4.0"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "FloatLiteral",
-      "offset": 5450,
+      "offset": 5460,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5456,
+      "offset": 5466,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 5822,
+      "offset": 5832,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5828,
+      "offset": 5838,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6189,
+      "offset": 6199,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6325,
+      "offset": 6335,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6683,
+      "offset": 6693,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 6687,
+      "offset": 6697,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 7073,
+      "offset": 7168,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7079,
+      "offset": 7174,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 7302,
+      "offset": 7397,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 7422,
+      "offset": 7517,
       "length": 34,
       "value": "\"CameraAutocaptureBackground_Face\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 7535,
+      "offset": 7630,
       "length": 33,
       "value": "\"CameraAutocaptureBackground_Doc\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8299,
+      "offset": 8394,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 8738,
+      "offset": 8833,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "FloatLiteral",
-      "offset": 8996,
-      "length": 4,
-      "value": "0.85"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 9183,
+      "offset": 9290,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 9532,
+      "offset": 9639,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 9590,
+      "offset": 9697,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "FloatLiteral",
-      "offset": 10609,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "FloatLiteral",
-      "offset": 10857,
+      "kind": "BooleanLiteral",
+      "offset": 9879,
       "length": 4,
-      "value": "0.85"
+      "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11145,
-      "length": 5,
-      "value": "false"
+      "kind": "IntegerLiteral",
+      "offset": 10648,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 11286,
+      "offset": 10785,
       "length": 38,
       "value": "\"IDScanIDCapture: INVALID LICENSE KEY\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11507,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 11736,
+      "offset": 11189,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "Array",
-      "offset": 12044,
+      "offset": 11497,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12140,
+      "offset": 11593,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12265,
+      "offset": 11718,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12338,
+      "offset": 11791,
       "length": 3,
       "value": "321"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12411,
+      "offset": 11864,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12415,
+      "offset": 11868,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 12682,
+      "offset": 12135,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12735,
+      "offset": 12188,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12783,
+      "offset": 12236,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 13068,
+      "offset": 12521,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 13137,
+      "offset": 12590,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 13328,
+      "offset": 12781,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 13437,
+      "offset": 12890,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 13537,
+      "offset": 12990,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 13551,
+      "offset": 13004,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 13654,
+      "offset": 13107,
       "length": 2,
       "value": "-6"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 13669,
+      "offset": 13122,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 13793,
+      "offset": 13246,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 13798,
+      "offset": 13251,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 13801,
+      "offset": 13254,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 13815,
+      "offset": 13268,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 13938,
+      "offset": 13391,
       "length": 3,
       "value": "-12"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 13944,
+      "offset": 13397,
       "length": 3,
       "value": "-12"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 13948,
+      "offset": 13401,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 13962,
+      "offset": 13415,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 14077,
+      "offset": 13530,
       "length": 21,
       "value": "\"StepIsCompleteSmall\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 14370,
+      "offset": 13823,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14435,
+      "offset": 13888,
       "length": 2,
       "value": "38"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14438,
+      "offset": 13891,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14450,
+      "offset": 13903,
       "length": 3,
       "value": "157"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14454,
+      "offset": 13907,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14465,
+      "offset": 13918,
       "length": 2,
       "value": "68"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14468,
+      "offset": 13921,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14480,
+      "offset": 13933,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14563,
+      "offset": 14016,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14567,
+      "offset": 14020,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14602,
+      "offset": 14055,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14607,
+      "offset": 14060,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 14943,
+      "offset": 14396,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 15013,
+      "offset": 14466,
       "length": 21,
       "value": "\"DisclosureIndicator\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "Array",
-      "offset": 15613,
+      "offset": 15066,
       "length": 8,
       "value": "[\"DLIC\"]"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "Array",
-      "offset": 15673,
+      "offset": 15126,
       "length": 9,
       "value": "[\"PASSP\"]"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "Array",
-      "offset": 15738,
+      "offset": 15191,
       "length": 6,
       "value": "[\"PC\"]"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "Array",
-      "offset": 15797,
+      "offset": 15250,
       "length": 12,
       "value": "[\"GC\", \"EA\"]"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "Array",
-      "offset": 15868,
+      "offset": 15321,
       "length": 7,
       "value": "[\"IID\"]"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 16416,
+      "offset": 15879,
       "length": 16,
       "value": "\"Internal error\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 16482,
+      "offset": 15945,
       "length": 65,
       "value": "\"The image has no documents or the document is of the wrong type\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 16596,
+      "offset": 16059,
       "length": 47,
       "value": "\"The image has no MRZ or it is of poor quality\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 16692,
+      "offset": 16155,
       "length": 47,
       "value": "\"The image has no PDF or it is of poor quality\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 16789,
+      "offset": 16252,
       "length": 48,
       "value": "\"The image has no Face or it is of poor quality\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 16893,
+      "offset": 16356,
       "length": 19,
       "value": "\"Wrong license key\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 17297,
+      "offset": 16770,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17304,
-      "length": 5,
-      "value": "false"
+      "kind": "IntegerLiteral",
+      "offset": 16777,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17097,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 17780,
+      "offset": 17282,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 18075,
+      "offset": 17576,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 18103,
-      "length": 4,
-      "value": "0.25"
+      "offset": 17604,
+      "length": 3,
+      "value": "0.3"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 18135,
+      "offset": 17635,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 18168,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "FloatLiteral",
-      "offset": 18305,
-      "length": 4,
-      "value": "0.63"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "FloatLiteral",
-      "offset": 18357,
-      "length": 4,
-      "value": "1.02"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "FloatLiteral",
-      "offset": 18409,
-      "length": 4,
-      "value": "1.04"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18472,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18689,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18755,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 19157,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 19164,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "FloatLiteral",
-      "offset": 19337,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "FloatLiteral",
-      "offset": 19352,
-      "length": 3,
-      "value": "1.2"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "FloatLiteral",
-      "offset": 19367,
+      "offset": 17668,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 19392,
+      "offset": 17805,
+      "length": 4,
+      "value": "0.63"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 17857,
+      "length": 4,
+      "value": "1.02"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 17909,
+      "length": 4,
+      "value": "1.04"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17972,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18189,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18255,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18657,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18664,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 18833,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 18848,
+      "length": 3,
+      "value": "1.2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 18863,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 18888,
       "length": 3,
       "value": "2.3"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 19408,
+      "offset": 18904,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 19804,
+      "offset": 19300,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 20050,
+      "offset": 19546,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20057,
-      "length": 5,
-      "value": "false"
+      "kind": "IntegerLiteral",
+      "offset": 19553,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20179,
-      "length": 5,
-      "value": "false"
+      "kind": "IntegerLiteral",
+      "offset": 19676,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 20391,
+      "offset": 19884,
       "length": 8,
       "value": "\"string\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 20449,
+      "offset": 19942,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20456,
-      "length": 5,
-      "value": "false"
+      "kind": "IntegerLiteral",
+      "offset": 19949,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 20590,
+      "offset": 20079,
       "length": 8,
       "value": "\"*demo*\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 20637,
+      "offset": 20126,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20644,
-      "length": 5,
-      "value": "false"
+      "kind": "IntegerLiteral",
+      "offset": 20133,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20780,
-      "length": 5,
-      "value": "false"
+      "kind": "IntegerLiteral",
+      "offset": 20270,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 20992,
+      "offset": 20478,
       "length": 8,
       "value": "\"string\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 21050,
+      "offset": 20536,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 21057,
-      "length": 5,
-      "value": "false"
+      "kind": "IntegerLiteral",
+      "offset": 20543,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 21191,
+      "offset": 20673,
       "length": 8,
       "value": "\"*demo*\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 21238,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 21245,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 21381,
+      "offset": 20720,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 21759,
+      "offset": 20727,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22021,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22028,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22338,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22504,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22511,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22824,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22990,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 22997,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 23280,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 23424,
+      "offset": 20864,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 23496,
+      "offset": 21227,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21469,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21993,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22514,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23037,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23346,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 23643,
+      "offset": 23474,
       "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 23687,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 23694,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 23823,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 23830,
-      "length": 4,
-      "value": "true"
+      "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 24196,
+      "offset": 23542,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23681,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 24239,
+      "offset": 23721,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 24246,
+      "offset": 23879,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 24380,
+      "offset": 24289,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24296,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24431,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 24879,
+      "offset": 24905,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 24931,
+      "offset": 24957,
       "length": 17,
       "value": "\"CIColorControls\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 25052,
+      "offset": 25078,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 25234,
+      "offset": 25260,
       "length": 25,
       "value": "\"CIHighlightShadowAdjust\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 25383,
+      "offset": 25409,
       "length": 19,
       "value": "\"inputShadowAmount\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 25554,
+      "offset": 25580,
       "length": 17,
       "value": "\"CIColorControls\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 25866,
+      "offset": 25892,
       "length": 17,
       "value": "\"CIColorControls\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 26181,
+      "offset": 26207,
       "length": 18,
       "value": "\"CIExposureAdjust\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 26858,
+      "offset": 26884,
       "length": 15,
       "value": "\"CIUnsharpMask\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Scanning_VC.swift",
       "kind": "StringLiteral",
-      "offset": 27320,
+      "offset": 27346,
       "length": 20,
       "value": "\"CISharpenLuminance\""
     },
@@ -4868,483 +4903,497 @@
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 458,
+      "offset": 424,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 357,
+      "offset": 598,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 497,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 524,
+      "offset": 664,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1207,
+      "offset": 1347,
       "length": 9,
       "value": "\"running\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1281,
+      "offset": 1421,
       "length": 9,
       "value": "\"running\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 1575,
+      "offset": 1715,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1782,
+      "offset": 1922,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 1915,
+      "offset": 2055,
       "length": 4,
       "value": "-3.5"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2208,
+      "offset": 2348,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1630,
+      "offset": 1770,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "Array",
-      "offset": 2571,
+      "offset": 2711,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 3221,
+      "offset": 3361,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3482,
+      "offset": 3622,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3814,
+      "offset": 3954,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 4186,
+      "offset": 4326,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 6881,
+      "offset": 7021,
       "length": 8,
       "value": "\"device\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 6892,
+      "offset": 7032,
       "length": 14,
       "value": "\"DeviceCamera\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7311,
+      "offset": 7451,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7481,
+      "offset": 7621,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8254,
+      "offset": 8394,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8395,
+      "offset": 8535,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8472,
+      "offset": 8612,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 8533,
+      "offset": 8673,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 8541,
+      "offset": 8681,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9089,
+      "offset": 9229,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9712,
+      "offset": 9852,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10147,
+      "offset": 10287,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 10277,
+      "offset": 10417,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 10319,
+      "offset": 10459,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 10362,
+      "offset": 10502,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 10509,
+      "offset": 10649,
       "length": 17,
       "value": "\"appearAnimation\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10597,
+      "offset": 10737,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10756,
+      "offset": 10896,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11515,
+      "offset": 11655,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11897,
+      "offset": 12037,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11921,
+      "offset": 12061,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11962,
+      "offset": 12130,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12135,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12737,
+      "offset": 12910,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 13417,
+      "offset": 13590,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 13425,
+      "offset": 13598,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13546,
+      "offset": 13719,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 14388,
+      "offset": 14607,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14560,
+      "offset": 14779,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 15182,
+      "offset": 15401,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 15290,
+      "offset": 15509,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 15768,
+      "offset": 15987,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 16947,
+      "offset": 17166,
       "length": 9,
       "value": "\"running\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 17328,
+      "offset": 17547,
       "length": 4,
       "value": "0.07"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 17427,
+      "offset": 17646,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 18053,
+      "offset": 18272,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18671,
+      "offset": 18890,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18808,
+      "offset": 19027,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 19906,
+      "offset": 20125,
       "length": 38,
       "value": "\"Can not connect to the camera device\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 20081,
+      "offset": 20300,
       "length": 13,
       "value": "\"Application\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 20118,
+      "offset": 20337,
       "length": 147,
       "value": "\"The \""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 20133,
+      "offset": 20352,
       "length": 3,
       "value": "\" has not been given a permission to your camera.\n\nPlease check the Privacy Settings:\nSettings -> \""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 20243,
+      "offset": 20462,
       "length": 2,
       "value": "\" -> Privacy -> Camera\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 20397,
+      "offset": 20616,
       "length": 30,
       "value": "\"Can't lock the camera device\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "StringLiteral",
-      "offset": 20545,
+      "offset": 20764,
       "length": 22,
       "value": "\"Can't set torch mode\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 21866,
+      "offset": 22085,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 22629,
+      "offset": 22848,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 22788,
+      "offset": 23007,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 22809,
+      "offset": 23028,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 22978,
+      "offset": 23197,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 23002,
+      "offset": 23221,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 24075,
+      "offset": 24294,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 24162,
+      "offset": 24381,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 25213,
+      "offset": 25432,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CamScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 25304,
+      "offset": 25523,
       "length": 1,
       "value": "0"
     },
@@ -5442,7 +5491,7 @@
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/ManualUploadPicker_VC.swift",
       "kind": "StringLiteral",
-      "offset": 3095,
+      "offset": 3090,
       "length": 15,
       "value": "\"❗️\nError\""
     },
@@ -5659,7 +5708,35 @@
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1004,
+      "offset": 1041,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1085,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1150,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1155,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1283,
       "length": 2,
       "value": "10"
     },
@@ -5673,800 +5750,1003 @@
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1052,
+      "offset": 1331,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1318,
+      "offset": 1597,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2490,
+      "offset": 2769,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2592,
+      "offset": 2871,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2698,
+      "offset": 2977,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2800,
+      "offset": 3079,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2896,
+      "offset": 3175,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2983,
+      "offset": 3262,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 3166,
+      "offset": 3445,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 3178,
+      "offset": 3457,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 3207,
+      "offset": 3486,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 3235,
+      "offset": 3514,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3566,
+      "offset": 3845,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3570,
+      "offset": 3849,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3940,
+      "offset": 4219,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4097,
+      "offset": 4376,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4217,
+      "offset": 4496,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 4268,
+      "offset": 4547,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 4280,
+      "offset": 4559,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 4309,
+      "offset": 4588,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 4337,
+      "offset": 4616,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4447,
+      "offset": 4726,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 4543,
+      "offset": 4822,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 4591,
+      "offset": 4870,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 4603,
+      "offset": 4882,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 4632,
+      "offset": 4911,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 4660,
+      "offset": 4939,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4774,
+      "offset": 5053,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4841,
+      "offset": 5120,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5175,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5739,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5859,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6018,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6032,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6139,
+      "length": 2,
+      "value": "-4"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6154,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6309,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6457,
+      "length": 3,
+      "value": "-20"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 5272,
+      "offset": 7732,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 7888,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 8233,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 5536,
+      "offset": 8517,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 5748,
+      "offset": 8715,
       "length": 3,
-      "value": "0.3"
+      "value": "0.6"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 5760,
+      "offset": 8727,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 5789,
+      "offset": 8756,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 5817,
+      "offset": 8784,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 8999,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 9253,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 9265,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 9294,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 9322,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5925,
+      "offset": 9430,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5962,
+      "offset": 9467,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6000,
+      "offset": 9505,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6044,
+      "offset": 9549,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 6140,
+      "offset": 9653,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 6174,
+      "offset": 9687,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 6236,
+      "offset": 9749,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 6265,
+      "offset": 9778,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 6293,
+      "offset": 9806,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6405,
+      "offset": 9918,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6446,
+      "offset": 9962,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10003,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6488,
+      "offset": 10045,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 6927,
+      "offset": 10484,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 7075,
+      "offset": 10632,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 7287,
+      "offset": 10844,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 7299,
+      "offset": 10856,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 7328,
+      "offset": 10885,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 7356,
+      "offset": 10913,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7464,
+      "offset": 11021,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7501,
+      "offset": 11058,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7539,
+      "offset": 11096,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7583,
+      "offset": 11140,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7620,
+      "offset": 11177,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7666,
+      "offset": 11223,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 7765,
+      "offset": 11322,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "Array",
-      "offset": 8083,
+      "offset": 11640,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "StringLiteral",
-      "offset": 8164,
+      "offset": 11721,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8209,
+      "offset": 11766,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "StringLiteral",
-      "offset": 8325,
+      "offset": 11882,
       "length": 6,
       "value": "\"◦ \""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "StringLiteral",
-      "offset": 8428,
+      "offset": 11985,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 8567,
+      "offset": 12124,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "StringLiteral",
-      "offset": 8827,
+      "offset": 12384,
       "length": 60,
       "value": "\"License key has expired or is wrong Please contact support\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 9144,
+      "offset": 12701,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 9292,
+      "offset": 12849,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 9493,
+      "offset": 13050,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 9667,
+      "offset": 13224,
       "length": 5,
       "value": "1.000"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 9681,
+      "offset": 13238,
       "length": 5,
       "value": "0.231"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 9694,
+      "offset": 13251,
       "length": 5,
       "value": "0.188"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "FloatLiteral",
-      "offset": 9708,
+      "offset": 13265,
       "length": 4,
       "value": "1.00"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 10022,
+      "offset": 13579,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 10235,
+      "offset": 13792,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 10723,
+      "offset": 14280,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14327,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 11199,
+      "offset": 14803,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 11281,
+      "offset": 14885,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 11623,
+      "offset": 15267,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 11739,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12214,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12278,
+      "offset": 15802,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12424,
+      "offset": 15864,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 12488,
+      "offset": 15917,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16337,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16405,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16680,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16744,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 12546,
+      "offset": 16802,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12842,
+      "offset": 17190,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 12953,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13046,
+      "offset": 17430,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 13138,
+      "offset": 17522,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "StringLiteral",
-      "offset": 13501,
+      "offset": 17885,
       "length": 17,
       "value": "\"need more light\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "StringLiteral",
-      "offset": 13569,
+      "offset": 17953,
       "length": 10,
       "value": "\"too dark\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "StringLiteral",
-      "offset": 13631,
+      "offset": 18015,
       "length": 27,
       "value": "\"device is moving too much\""
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 717,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 723,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 773,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "BooleanLiteral",
-      "offset": 899,
+      "offset": 18268,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 926,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1528,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1615,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
-      "kind": "Array",
-      "offset": 1983,
+      "offset": 18306,
       "length": 2,
-      "value": "[]"
+      "value": "20"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2404,
+      "offset": 18338,
       "length": 1,
-      "value": "1"
+      "value": "3"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2410,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2460,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2586,
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 18674,
       "length": 5,
-      "value": "false"
+      "value": "0.498"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2613,
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 18688,
       "length": 5,
-      "value": "false"
+      "value": "1.000"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
-      "kind": "Array",
-      "offset": 2702,
-      "length": 2,
-      "value": "[]"
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 18701,
+      "length": 5,
+      "value": "0.400"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
-      "kind": "Dictionary",
-      "offset": 3249,
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 18715,
+      "length": 4,
+      "value": "1.00"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 18782,
       "length": 3,
-      "value": "[]"
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 18803,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18943,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 19211,
+      "length": 5,
+      "value": "0.625"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19219,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 19269,
+      "length": 5,
+      "value": "0.125"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19277,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 19734,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19740,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "FloatLiteral",
+      "offset": 19779,
+      "length": 5,
+      "value": "0.125"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/CameraAutocapture_VC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19787,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 3563,
-      "length": 25,
-      "value": "\"unexpected result type!\""
+      "kind": "BooleanLiteral",
+      "offset": 883,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1094,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1121,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1493,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1544,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 3760,
+      "offset": 1701,
       "length": 5,
       "value": "-0.05"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 3779,
+      "offset": 1720,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 3798,
+      "offset": 1739,
       "length": 5,
-      "value": "-0.05"
+      "value": "-0.06"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 3818,
+      "offset": 1759,
       "length": 4,
-      "value": "0.05"
+      "value": "0.06"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 3860,
+      "offset": 1779,
+      "length": 5,
+      "value": "-0.06"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 1800,
       "length": 4,
-      "value": "-0.5"
+      "value": "0.06"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 1846,
+      "length": 5,
+      "value": "-0.35"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceDetector\/IDScanFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 1892,
+      "length": 4,
+      "value": "0.35"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/DocumentSteps_VC.swift",
