@@ -324,6 +324,7 @@ SWIFT_CLASS("_TtC13IDScanCapture11ImagePicker")
 
 
 
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
