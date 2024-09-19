@@ -88,6 +88,10 @@ Choose the detectors that you want to add to your project.
 
 ---
 
+## Localization
+
+You can localize the SDK in the usual way. You can see the localization keys in the [Localizable.strings](Libs/Localizable.strings) file. 
+
 ## Usage DIVE SDK Online
 
 Using the [web portal](https://diveonline.idscan.net/) or [DIVE API](https://docs.idscan.net/dive/dive-online/api-manual.html) you can create Applicant and use applicant id for checking their documents. Use [Create applicant request](https://docs.idscan.net/dive/dive-online/swagger.html#/Applicants/post_api_v2_private_Applicants) by API
