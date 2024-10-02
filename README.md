@@ -248,6 +248,9 @@ The `configuration` parameter for `DIVESDK` is a dictionary that defines the set
     all - enable "realFaceMode" for all devices
     none - disable this option
 
+- **isShowDocumentTypeSelect**: `Bool`
+  - if only one document type is configured in the documentTypes array AND this setting is set to false the document type dialog will not be displayed to the end user. Default: true.
+
 - **documentTypes**: `Array<Dictionary>`
   - Defines the types of documents that the SDK should recognize and process. Each document type can have multiple steps for capturing different parts of the document.
 
