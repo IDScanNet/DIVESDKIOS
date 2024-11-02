@@ -7,18 +7,40 @@
 
 import Foundation
 
+@objc public protocol IDIVESDK {
+    func sendData(data: DIVESDKData)
+    func close()
+}
+
 @objc public protocol DIVESDKDelegate: AnyObject {
-    func diveSDKResult(sdk: Any, result: [String : Any])
-    func diveSDKError(sdk: Any, error: Error)
-    func diveSDKSendingDataStarted(sdk: Any)
-    func diveSDKSendingDataProgress(sdk: Any, progress: Float, requestTime: TimeInterval)
+    func diveSDKResult(sdk: IDIVESDK, result: [String : Any])
+    func diveSDKDataPrepaired(sdk: IDIVESDK, data: DIVESDKData)
+    func diveSDKError(sdk: IDIVESDK, error: Error)
+    func diveSDKSendingDataProgress(sdk: IDIVESDK, progress: Float, requestTime: TimeInterval)
 }
 
 public extension DIVESDKDelegate {
-    func diveSDKSendingDataProgress(sdk: Any, progress: Float, requestTime: TimeInterval) { }
+    func diveSDKSendingDataProgress(sdk: IDIVESDK, progress: Float, requestTime: TimeInterval) { }
 }
 
 public typealias DIVESDKResult = Result<[String : Any], Error>
+@objc public class DIVESDKData: NSObject {
+    public let frontImage: UIImage?
+    public let backImage: UIImage?
+    public let faceImage: UIImage?
+    public let trackString: String?
+    public let documentType: Int
+    public let realFaceMode: Bool
+    
+    public init(frontImage: UIImage? = nil, backImage: UIImage? = nil, faceImage: UIImage? = nil, trackString: String? = nil, documentType: Int, realFaceMode: Bool) {
+        self.frontImage = frontImage
+        self.backImage = backImage
+        self.faceImage = faceImage
+        self.trackString = trackString
+        self.documentType = documentType
+        self.realFaceMode = realFaceMode
+    }
+}
 
 public enum DIVEError: LocalizedError {
     case somethingWentWrong(Int? = nil)
@@ -150,7 +172,7 @@ extension IDScanIDCaptureTheme {
     }
 }
 
-public extension IDScanIDCaptureResult {
+public extension DIVESDKData {
     var requestParams: [String : Any] {
         var model: [String : Any] = [:]
         if let frontImage = self.frontImage?.toBase64() {

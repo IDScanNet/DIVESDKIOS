@@ -9,7 +9,7 @@ import UIKit
 import IDScanCapture
 import DIVESDKCommon
 
-@objc public class DIVESDK: NSObject, IDScanIDCaptureDelegate {
+@objc public class DIVESDK: NSObject, IDIVESDK, IDScanIDCaptureDelegate {
     private var baseURL = "https://dive.idscan.net/api/v3"
     private let token: String
     private var captureSDK: IDScanIDCapture? = nil
@@ -27,24 +27,12 @@ import DIVESDKCommon
             self.captureSDK?.logs = self.logs
         }
     }
-    @objc public var checkForBlur = true {
-        didSet {
-            self.captureSDK?.checkForBlur = self.checkForBlur
-        }
-    }
-    @objc public var blurTreshold = 0.6 {
-        didSet {
-            self.captureSDK?.blurTreshold = self.blurTreshold
-        }
-    }
     
     @objc public var ready: Bool {
         self.captureSDK != nil
     }
     
     @objc public init?(configuration: [String : Any], token: String, baseURL: String? = nil, delegate: DIVESDKDelegate, theme: DIVESDKTheme? = nil) {
-        guard CaptureConfiguration(json: configuration) != nil else { return nil }
-        
         self.token = token
         if let baseURL = baseURL {
             self.baseURL = baseURL
@@ -54,15 +42,6 @@ import DIVESDKCommon
         self.captureSDK = IDScanIDCapture(delegate: self, configuration: configuration, theme: IDScanIDCaptureTheme(theme))
         self.captureSDK?.vibroFeedback = self.vibroFeedback
         self.captureSDK?.logs = self.logs
-        self.captureSDK?.checkForBlur = self.checkForBlur
-        self.captureSDK?.blurTreshold = self.blurTreshold
-    }
-    
-    // MARK: -
-    
-    private func sendResult(result: IDScanIDCaptureResult, handler block: @escaping (DIVESDKResult) -> Void, progress progressBlock: @escaping (Float, TimeInterval) -> Void) {
-        let url = "\(baseURL)/" + (self.token.hasPrefix("sk") ? "Verify" : "Request")
-        self.network.request(url: url, method: "POST", parameters: result.requestParams, token: self.token, completionHandler: block, progressHandler: progressBlock)
     }
     
     // MARK: -
@@ -80,16 +59,9 @@ import DIVESDKCommon
         captureSDK.start(from: rootVC, contentInset: contentInset)
     }
     
-    @objc public func close() {
-        self.captureSDK?.close()
-    }
-    
-    // MARK: - IDScanIDCaptureDelegate
-    
-    public func idCaptureResult(sdk: IDScanIDCapture, result: IDScanIDCaptureResult) {
-        self.delegate?.diveSDKSendingDataStarted(sdk: self)
-        
-        self.sendResult(result: result) { [weak self] result in
+    @objc public func sendData(data: DIVESDKData) {
+        let url = "\(baseURL)/" + (self.token.hasPrefix("sk") ? "Verify" : "Request")
+        self.network.request(url: url, method: "POST", parameters: data.requestParams, token: self.token, completionHandler: { [weak self] result in
             guard let strongSelf = self else { return }
             switch result {
                 case .success(let data):
@@ -97,10 +69,21 @@ import DIVESDKCommon
                 case .failure(let error):
                     strongSelf.delegate?.diveSDKError(sdk: strongSelf, error: error)
             }
-        } progress: { [weak self] progress, time in
+        }, progressHandler: { [weak self] progress, time in
             guard let strongSelf = self else { return }
             strongSelf.delegate?.diveSDKSendingDataProgress(sdk: strongSelf, progress: progress, requestTime: time)
-        }
+        })
+    }
+    
+    @objc public func close() {
+        self.captureSDK?.close()
+    }
+    
+    // MARK: - IDScanIDCaptureDelegate
+    
+    public func idCaptureResult(sdk: IDScanIDCapture, result: IDScanIDCaptureResult) {
+        let data = DIVESDKData(frontImage: result.frontImage, backImage: result.backImage, faceImage: result.faceImage, trackString: result.trackString, documentType: result.documentType, realFaceMode: result.realFaceMode)
+        self.delegate?.diveSDKDataPrepaired(sdk: self, data: data)
     }
     
     public func idCaptureError(sdk: IDScanIDCapture, error: Error) {

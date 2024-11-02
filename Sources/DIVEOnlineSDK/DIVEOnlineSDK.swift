@@ -11,7 +11,7 @@ import DIVESDKCommon
 import IDSSystemInfo
 import IDSLocationManager
 
-@objc public class DIVEOnlineSDK: NSObject, IDScanIDCaptureDelegate {
+@objc public class DIVEOnlineSDK: NSObject, IDIVESDK, IDScanIDCaptureDelegate {
     private let baseURL: String
     private let applicantID: String
     private let integrationID: String
@@ -31,16 +31,6 @@ import IDSLocationManager
     @objc public var logs = false {
         didSet {
             self.captureSDK?.logs = self.logs
-        }
-    }
-    @objc public var checkForBlur = true {
-        didSet {
-            self.captureSDK?.checkForBlur = self.checkForBlur
-        }
-    }
-    @objc public var blurTreshold = 0.6 {
-        didSet {
-            self.captureSDK?.blurTreshold = self.blurTreshold
         }
     }
     
@@ -71,13 +61,10 @@ import IDSLocationManager
                     do {
                         if let jsonString = resultDic["jsonSettings"] as? String,
                            let data = jsonString.data(using: .utf8),
-                           let jsonSettings = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any],
-                           let capture = IDScanIDCapture(delegate: self, configuration: jsonSettings, theme: self.theme) {
-                            self.captureSDK = capture
+                           let jsonSettings = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
+                            self.captureSDK = IDScanIDCapture(delegate: self, configuration: jsonSettings, theme: self.theme)
                             self.captureSDK?.vibroFeedback = self.vibroFeedback
                             self.captureSDK?.logs = self.logs
-                            self.captureSDK?.checkForBlur = self.checkForBlur
-                            self.captureSDK?.blurTreshold = self.blurTreshold
                             block(nil)
                         } else {
                             block(DIVEError.somethingWentWrong())
@@ -89,13 +76,6 @@ import IDSLocationManager
                     block(error)
             }
         }
-    }
-    
-    private func sendResult(result: IDScanIDCaptureResult, handler block: @escaping (DIVESDKResult) -> Void, progress progressBlock: @escaping (Float, TimeInterval) -> Void) {
-        let url = "\(baseURL)/Validation"
-        var params: [String : Any] = ["model" : result.requestParams, "applicantId": self.applicantID]
-        params.merge(self.additionalInfoRequestParams) { (_, new) in new }
-        self.network.request(url: url, method: "POST", parameters: params, token: self.token, completionHandler: block, progressHandler: progressBlock)
     }
     
     // MARK: -
@@ -162,16 +142,11 @@ import IDSLocationManager
         captureSDK.start(from: rootVC)
     }
     
-    @objc public func close() {
-        self.captureSDK?.close()
-    }
-    
-    // MARK: - IDScanIDCaptureDelegate
-    
-    public func idCaptureResult(sdk: IDScanIDCapture, result: IDScanIDCaptureResult) {
-        self.delegate?.diveSDKSendingDataStarted(sdk: self)
-        
-        self.sendResult(result: result) { [weak self] result in
+    @objc public func sendData(data: DIVESDKData) {
+        let url = "\(baseURL)/Validation"
+        var params: [String : Any] = ["model" : data.requestParams, "applicantId": self.applicantID]
+        params.merge(self.additionalInfoRequestParams) { (_, new) in new }
+        self.network.request(url: url, method: "POST", parameters: params, token: self.token, completionHandler: { [weak self] result in
             guard let strongSelf = self else { return }
             switch result {
                 case .success(let data):
@@ -179,10 +154,21 @@ import IDSLocationManager
                 case .failure(let error):
                     strongSelf.delegate?.diveSDKError(sdk: strongSelf, error: error)
             }
-        } progress: { [weak self] progress, time in
+        }, progressHandler: { [weak self] progress, time in
             guard let strongSelf = self else { return }
             strongSelf.delegate?.diveSDKSendingDataProgress(sdk: strongSelf, progress: progress, requestTime: time)
-        }
+        })
+    }
+    
+    @objc public func close() {
+        self.captureSDK?.close()
+    }
+    
+    // MARK: - IDScanIDCaptureDelegate
+    
+    public func idCaptureResult(sdk: IDScanIDCapture, result: IDScanIDCaptureResult) {
+        let data = DIVESDKData(frontImage: result.frontImage, backImage: result.backImage, faceImage: result.faceImage, trackString: result.trackString, documentType: result.documentType, realFaceMode: result.realFaceMode)
+        self.delegate?.diveSDKDataPrepaired(sdk: self, data: data)
     }
     
     public func idCaptureError(sdk: IDScanIDCapture, error: Error) {

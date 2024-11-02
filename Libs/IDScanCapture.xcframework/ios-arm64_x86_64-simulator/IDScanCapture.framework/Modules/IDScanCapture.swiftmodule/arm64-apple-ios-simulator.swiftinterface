@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IDScanCapture
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name IDScanCapture
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import Accelerate
 import CoreImage
@@ -19,7 +19,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public struct CaptureConfiguration {
-  public init?(json: [Swift.String : Any])
+  public init(json: [Swift.String : Any])
 }
 public struct IDScanIDCaptureTheme {
   public let accentColor: UIKit.UIColor
@@ -32,8 +32,8 @@ public struct IDScanIDCaptureTheme {
   @objc deinit
 }
 extension IDScanCapture.ImagePicker : UIKit.UIImagePickerControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func imagePickerControllerDidCancel(_ picker: UIKit.UIImagePickerController)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerControllerDidCancel(_ picker: UIKit.UIImagePickerController)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
 }
 extension IDScanCapture.ImagePicker : UIKit.UINavigationControllerDelegate {
 }
@@ -45,11 +45,9 @@ public struct IDScanIDCaptureResult {
   public let documentType: Swift.Int
   public let realFaceMode: Swift.Bool
 }
-public enum IDScanIDCaptureError : Swift.Error {
-  case configIsInvalid
-  public static func == (a: IDScanCapture.IDScanIDCaptureError, b: IDScanCapture.IDScanIDCaptureError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+public enum IDScanIDCaptureError : Foundation.LocalizedError {
+  case configIsInvalid(error: Swift.String)
+  public var errorDescription: Swift.String? {
     get
   }
 }
@@ -66,18 +64,8 @@ public class IDScanIDCapture {
     get
     set
   }
-  public var checkForBlur: Swift.Bool {
-    get
-    set
-  }
-  public var blurTreshold: Swift.Double {
-    get
-    set
-  }
-  public init?(delegate: any IDScanCapture.IDScanIDCaptureDelegate, configuration: [Swift.String : Any], theme: IDScanCapture.IDScanIDCaptureTheme = .init())
+  public init(delegate: any IDScanCapture.IDScanIDCaptureDelegate, configuration: [Swift.String : Any], theme: IDScanCapture.IDScanIDCaptureTheme = .init())
   public func start(from rootVC: UIKit.UIViewController, contentInset: UIKit.UIEdgeInsets? = nil)
   public func close()
   @objc deinit
 }
-extension IDScanCapture.IDScanIDCaptureError : Swift.Equatable {}
-extension IDScanCapture.IDScanIDCaptureError : Swift.Hashable {}
