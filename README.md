@@ -143,7 +143,12 @@ class ViewController: UIViewController, DIVESDKDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        sdk = DIVEOnlineSDK(applicantID: "your_applicant_id", integrationID: "your_integration_id", token: "your_public_token", baseURL: "https://stage.api-diveonline.idscan.net/api/v2", delegate: strongSelf, theme: .init(accentColor: .green, fontSizeModifier: 5))
+        sdk = DIVEOnlineSDK(applicantID: "your_applicant_id",
+                            integrationID: "your_integration_id",
+                            token: "your_public_token",
+                            baseURL: "https://stage.api-diveonline.idscan.net/api/v2",
+                            delegate: strongSelf,
+                            theme: .init(accentColor: .green, fontSizeModifier: 5))
 
         sdk?.loadConfiguration {  [weak self] error in
             guard let self = self else { return }
@@ -321,7 +326,10 @@ class ViewController: UIViewController, DIVESDKDelegate {
         let configuration: [String: Any] = ["key": "value"]
         let token = "your_token"
         
-        diveSDK = DIVESDK(configuration: configuration, token: token, delegate: self, theme: nil)
+        diveSDK = DIVESDK(configuration: configuration,
+                          token: token,
+                          delegate: self,
+                          theme: nil)
         
         if let sdk = diveSDK, sdk.ready {
             sdk.start(from: self)
