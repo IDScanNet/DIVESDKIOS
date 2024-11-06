@@ -47,7 +47,7 @@ let package = Package(
         .iOS(.v13)
     ],
     dependencies: [
-        .package(url: "https://github.com/IDScanNet/DIVE-SDK-iOS.git", from: "1.0.0")
+        .package(url: "https://github.com/IDScanNet/DIVE-SDK-iOS.git", from: "3.0.0")
     ],
     targets: [
         .target(
@@ -90,9 +90,9 @@ Choose the detectors that you want to add to your project.
 
 ## Localization
 
-You can localize the SDK in the usual way. You can see the localization keys in the [Localizable.strings](Libs/Localizable.strings) file. 
+You can localize the SDK in the usual way. You can see the localization keys in the [Localizable.strings](Libs/Localizable.strings) file.
 
-## Usage DIVE SDK Online
+# Usage DIVE SDK Online
 
 Using the [web portal](https://diveonline.idscan.net/) or [DIVE API](https://docs.idscan.net/dive/dive-online/api-manual.html) you can create Applicant and use applicant id for checking their documents. Use [Create applicant request](https://docs.idscan.net/dive/dive-online/swagger.html#/Applicants/post_api_v2_private_Applicants) by API
 
@@ -108,12 +108,12 @@ click `+ Add Bundle` named it and click `add`. Use `Token` from Bundles table as
 ### Initialization
 
 ```swift
-@objc public init(applicantID: String, 
-                  integrationID: String, 
-                  token: String, 
-                  baseURL: String, 
-                  delegate: DIVESDKDelegate, 
-                  theme: DIVESDKTheme? = nil)
+DIVEOnlineSDK(applicantID: String,
+              integrationID: String,
+              token: String,
+              baseURL: String,
+              delegate: DIVESDKDelegate,
+              theme: DIVESDKTheme? = nil)
 ```
 
 - **applicantID**: The applicant's ID.
@@ -125,11 +125,13 @@ click `+ Add Bundle` named it and click `add`. Use `Token` from Bundles table as
     - **accentColor**: `UIColor` (Swift) / `UIColor *` (Objective-C) The main color used for buttons and titles in the SDK. This should be a valid `UIColor` object. Example: `.blue` (Swift) / `[UIColor blueColor]` (Objective-C)
     - **fontSizeModifier**: `CGFloat`  A number that is added to the base font size, allowing you to adjust the overall font size within the SDK. Example: `2.0`
 
-<img src="Docs/resources/accentColor.png" title="accentColor"> <img src="Docs/resources/fontSizeChange.png" title="fontSizeModifier">
+Accent Color (orange)              |  Font Size Modifier (2.0)
+:-------------------------:|:-------------------------:
+![](Docs/resources/accentColor.png)  |  ![](Docs/resources/fontSizeChange.png)
 
 By using the `theme` parameter, you can ensure that the SDK components integrate seamlessly with the visual style of your application.
 
-### Swift Example
+### Usage example
 
 ```swift
 import UIKit
@@ -141,9 +143,10 @@ class ViewController: UIViewController, DIVESDKDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        sdk = DIVEOnlineSDK(applicantID: "your_applicant_id", integrationID: "your_integration_id", token: "your_public_token", baseURL: "https://api-dvsonline.idscan.net/api/v2/public", delegate: strongSelf, theme: .init(accentColor: .green, fontSizeModifier: 5))
+        sdk = DIVEOnlineSDK(applicantID: "your_applicant_id", integrationID: "your_integration_id", token: "your_public_token", baseURL: "https://stage.api-diveonline.idscan.net/api/v2", delegate: strongSelf, theme: .init(accentColor: .green, fontSizeModifier: 5))
 
         sdk?.loadConfiguration {  [weak self] error in
+            guard let self = self else { return }
             if let error = error {
                 print("Configuration load error: \(error)")
             } else if let sdk = self.sdk, sdk.ready {
@@ -151,66 +154,31 @@ class ViewController: UIViewController, DIVESDKDelegate {
             }
         }
     }
+
+    // MARK: - DIVESDKDelegate
+
+    func diveSDKDataPrepaired(sdk: IDIVESDK, data: DIVESDKData) {
+        sdk.close()
+        
+        //You can do something with the captured data and decide whether to send it.
+        sdk.sendData(data: data)
+    }
     
-    func diveSDKResult(sdk: Any, result: [String: Any]) {
+    func diveSDKResult(sdk: IDIVESDK, result: [String: Any]) {
         print("DIVE SDK Result: \(result)")
     }
     
-    func diveSDKError(sdk: Any, error: Error) {
+    func diveSDKError(sdk: IDIVESDK, error: Error) {
         print("DIVE SDK Error: \(error.localizedDescription)")
     }
-}
-```
 
-### Objective-C
-
-```objc
-@import DIVEOnlineSDK;
-
-@interface ViewController () <DIVESDKDelegate>
-
-@property (nonatomic, strong) DIVEOnlineSDK *diveOnlineSDK;
-
-@end
-
-@implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    let applicantID = :@"your_applicant_id"
-    let integrationID = @"your_integration_id"
-    let token = @"your_public_token"
-    let baseURL =@"https://api-dvsonline.idscan.net/api/v2/public"
-    UIColor *accentColor = [UIColor blueColor];
-    CGFloat fontSizeModifier = 2.0;
-    DIVESDKTheme *theme = [[DIVESDKTheme alloc] initWithAccentColor:accentColor fontSizeModifier:fontSizeModifier];
-   
-    diveOnlineSDK = DIVEOnlineSDK(applicantID: applicantID, integrationID: integrationID, token: token, baseURL: baseURL, delegate: self, theme: theme)
-        
-    diveOnlineSDK?.loadConfiguration { error in
-        if let error = error {
-            print("Configuration load error: \(error)")
-        } else if let sdk = self.diveOnlineSDK, sdk.ready {
-            sdk.start(from: self)
-        }
+    func diveSDKSendingDataProgress(sdk: IDIVESDK, progress: Float, requestTime: TimeInterval) {
+        print("Progress: \(progress), Time: \(requestTime)")
     }
 }
-
-- (void)diveSDKResult:(DIVEOnlineSDK *)sdk result:(NSDictionary *)result {
-    NSLog(@"DIVE SDK Result: %@", result);
-}
-
-- (void)diveSDKError:(DIVEOnlineSDK *)sdk error:(NSError *)error {
-    NSLog(@"DIVE SDK Error: %@", error.localizedDescription);
-}
-
-@end
 ```
 
-### `DIVE SDK` 
-
-## Usage DIVE SDK
+# Usage DIVE SDK
 
 Using the [web portal](https://mydive.idscan.net/overview) create both public tokens, use `public tokens` in your application.
 
@@ -219,16 +187,18 @@ Using the [web portal](https://mydive.idscan.net/overview) create both public to
 #### Swift
 
 ```swift
-@objc public init?(configuration: [String : Any], 
-                   token: String, 
-                   delegate: DIVESDKDelegate, 
-                   theme: DIVESDKTheme? = nil) 
+DIVESDK(configuration: [String : Any],
+        token: String,
+        delegate: DIVESDKDelegate,
+        theme: DIVESDKTheme? = nil)
 ```
 
 - **configuration**: A dictionary containing the configuration settings for the SDK.
 - **token**: The authorization public token for network requests. 
 - **delegate**: An object conforming to `DIVESDKDelegate` to handle SDK events.
 - **theme**: An optional `DIVESDKTheme` object for customizing the SDK's appearance.
+    - **accentColor**: `UIColor` (Swift) / `UIColor *` (Objective-C) The main color used for buttons and titles in the SDK. This should be a valid `UIColor` object. Example: `.blue` (Swift) / `[UIColor blueColor]` (Objective-C)
+    - **fontSizeModifier**: `CGFloat`  A number that is added to the base font size, allowing you to adjust the overall font size within the SDK.
 
 ### Configuration for `DIVESDK`
 
@@ -236,11 +206,14 @@ The `configuration` parameter for `DIVESDK` is a dictionary that defines the set
 
 ### Configuration Options
 
-- **resizeUploadedImage**: `Int`
-  - Specifies the maximum dimension (in pixels) to which uploaded images should be resized. Use `-1` to keep the original size.
-
 - **autoContinue**: `Bool`
   - When set to `true`, the SDK automatically proceeds to the next step after a successful capture.
+ 
+- **autoStart**: `Bool`
+  - Allows you to start capture processing immediately without explicitly pressing the Start button on the Summary Screen.
+ 
+- **autoSubmit**: `Bool`
+  - Allows you to submit captured data immediately without explicitly pressing the Submit button on the Summary Screen.
 
 - **realFaceMode**: `String`
   - realFaceMode (string) - an option that enables advanced image capturing with volumetric face detection. Available values: 'auto', 'all', 'none'.
@@ -280,8 +253,10 @@ Each document type in the `documentTypes` array is a dictionary with the followi
 
 ```swift
 let configuration: [String: Any] = [
-            "resizeUploadedImage": -1,
             "autoContinue": true,
+            "autoStart":false,
+            "autoSubmit":false,
+            "isShowDocumentTypeSelect":false,
             "realFaceMode": "auto",
             "documentTypes": [
                 [
@@ -330,7 +305,7 @@ If these keys are not present, follow these steps
 - **start(from: UIViewController)**: Starts the ID capture process.
 - **close()**: Closes the ID capture process.
 
-### Usage Examples Swift
+### Usage example
 
 ```swift
 import UIKit
@@ -338,7 +313,6 @@ import DIVESDK
 import DIVESDKCommon
 
 class ViewController: UIViewController, DIVESDKDelegate {
-    
     var diveSDK: DIVESDK?
 
     override func viewDidLoad() {
@@ -353,67 +327,28 @@ class ViewController: UIViewController, DIVESDKDelegate {
             sdk.start(from: self)
         }
     }
+
+    // MARK: - DIVESDKDelegate
+
+    func diveSDKDataPrepaired(sdk: IDIVESDK, data: DIVESDKData) {
+        sdk.close()
+        
+        //You can do something with the captured data and decide whether to send it.
+        sdk.sendData(data: data)
+    }
     
-    func diveSDKResult(sdk: Any, result: [String : Any]) {
+    func diveSDKResult(sdk: IDIVESDK, result: [String : Any]) {
         print("Result: \(result)")
     }
     
-    func diveSDKError(sdk: Any, error: Error) {
+    func diveSDKError(sdk: IDIVESDK, error: Error) {
         print("Error: \(error)")
     }
     
-    func diveSDKSendingDataStarted(sdk: Any) {
-        print("Data sending started")
-    }
-    
-    func diveSDKSendingDataProgress(sdk: Any, progress: Float, requestTime: TimeInterval) {
+    func diveSDKSendingDataProgress(sdk: IDIVESDK, progress: Float, requestTime: TimeInterval) {
         print("Progress: \(progress), Time: \(requestTime)")
     }
 }
-```
-
-###  Usage Examples Objective-C
-
-```objc
-
-@interface ViewController () <DIVESDKDelegate>
-
-@property (nonatomic, strong) DIVESDK *diveSDK;
-
-@end
-
-@implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    NSDictionary *configuration = @{@"key": @"value"};
-    NSString *token = @"your_token";
-    
-    self.diveSDK = [[DIVESDK alloc] initWithConfiguration:configuration token:token delegate:self theme:nil];
-    
-    if (self.diveSDK.ready) {
-        [self.diveSDK startFrom:self];
-    }
-}
-
-- (void)diveSDKResultWithSdk:(id)sdk result:(NSDictionary<NSString *,id> *)result {
-    NSLog(@"Result: %@", result);
-}
-
-- (void)diveSDKErrorWithSdk:(id)sdk error:(NSError *)error {
-    NSLog(@"Error: %@", error);
-}
-
-- (void)diveSDKSendingDataStartedWithSdk:(id)sdk {
-    NSLog(@"Data sending started");
-}
-
-- (void)diveSDKSendingDataProgressWithSdk:(id)sdk progress:(float)progress requestTime:(NSTimeInterval)requestTime {
-    NSLog(@"Progress: %f, Time: %f", progress, requestTime);
-}
-
-@end
 ```
 
 ## Result explaining
