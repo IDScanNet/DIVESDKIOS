@@ -1739,14 +1739,14 @@
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 12904,
+      "offset": 12899,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 12930,
+      "offset": 12925,
       "length": 5,
       "value": "false"
     },
